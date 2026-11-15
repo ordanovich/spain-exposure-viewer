@@ -1,0 +1,4449 @@
+{
+ "built": "2026-11-15T08:50:06+01:00",
+ "source": {
+  "file": "interim/province_indicators_annual.parquet",
+  "modified": "2026-11-14T22:08:32+01:00",
+  "sha256": "96826c91fcade5230b25962cfe8f9b2f89c1b35d009a45a925c62649d90032c2",
+  "rows": 3100,
+  "columns": 67
+ },
+ "years": [
+  1961,
+  1962,
+  1963,
+  1964,
+  1965,
+  1966,
+  1967,
+  1968,
+  1969,
+  1970,
+  1971,
+  1972,
+  1973,
+  1974,
+  1975,
+  1976,
+  1977,
+  1978,
+  1979,
+  1980,
+  1981,
+  1982,
+  1983,
+  1984,
+  1985,
+  1986,
+  1987,
+  1988,
+  1989,
+  1990,
+  1991,
+  1992,
+  1993,
+  1994,
+  1995,
+  1996,
+  1997,
+  1998,
+  1999,
+  2000,
+  2001,
+  2002,
+  2003,
+  2004,
+  2005,
+  2006,
+  2007,
+  2008,
+  2009,
+  2010,
+  2011,
+  2012,
+  2013,
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022
+ ],
+ "withheld": [],
+ "release": {
+  "preview": true,
+  "dataset_version": null,
+  "doi": null
+ },
+ "geometry_key": "de3c565b24f1b8f2a62f5da12cebc9c379e8ae7d0d4e031edb07ee9e7e51a1e4",
+ "store_decimals": 4,
+ "flags": {
+  "export_tables": true,
+  "export_maps": true,
+  "export_grids": false
+ },
+ "bounds": [
+  -18.1612,
+  27.6377,
+  4.3278,
+  43.7924
+ ],
+ "provinces": [
+  {
+   "id": 0,
+   "cod": "01",
+   "name": "Araba/Álava",
+   "ccaa": "16",
+   "ccaa_name": "País Vasco/Euskadi",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -3.2868,
+    42.4723,
+    -2.2327,
+    43.2172
+   ]
+  },
+  {
+   "id": 1,
+   "cod": "02",
+   "name": "Albacete",
+   "ccaa": "08",
+   "ccaa_name": "Castilla-La Mancha",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -2.8829,
+    38.0224,
+    -0.9158,
+    39.4231
+   ]
+  },
+  {
+   "id": 2,
+   "cod": "03",
+   "name": "Alacant/Alicante",
+   "ccaa": "10",
+   "ccaa_name": "Comunitat Valenciana",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -1.0941,
+    37.8438,
+    0.2342,
+    38.8874
+   ]
+  },
+  {
+   "id": 3,
+   "cod": "04",
+   "name": "Almería",
+   "ccaa": "01",
+   "ccaa_name": "Andalucía",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -3.1402,
+    35.9376,
+    -1.6301,
+    37.9162
+   ]
+  },
+  {
+   "id": 4,
+   "cod": "05",
+   "name": "Ávila",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -5.7376,
+    40.0825,
+    -4.1602,
+    41.1642
+   ]
+  },
+  {
+   "id": 5,
+   "cod": "06",
+   "name": "Badajoz",
+   "ccaa": "11",
+   "ccaa_name": "Extremadura",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -7.336,
+    37.941,
+    -4.6476,
+    39.4518
+   ]
+  },
+  {
+   "id": 6,
+   "cod": "07",
+   "name": "Illes Balears",
+   "ccaa": "04",
+   "ccaa_name": "Illes Balears",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    1.1572,
+    38.6404,
+    4.3278,
+    40.0946
+   ]
+  },
+  {
+   "id": 7,
+   "cod": "08",
+   "name": "Barcelona",
+   "ccaa": "09",
+   "ccaa_name": "Cataluña/Catalunya",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    1.3604,
+    41.1927,
+    2.7776,
+    42.3233
+   ]
+  },
+  {
+   "id": 8,
+   "cod": "09",
+   "name": "Burgos",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -4.3353,
+    41.4508,
+    -2.5174,
+    43.1986
+   ]
+  },
+  {
+   "id": 9,
+   "cod": "10",
+   "name": "Cáceres",
+   "ccaa": "11",
+   "ccaa_name": "Extremadura",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -7.545,
+    39.0315,
+    -4.9525,
+    40.4867
+   ]
+  },
+  {
+   "id": 10,
+   "cod": "11",
+   "name": "Cádiz",
+   "ccaa": "01",
+   "ccaa_name": "Andalucía",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -6.4721,
+    36.0003,
+    -5.0868,
+    37.0524
+   ]
+  },
+  {
+   "id": 11,
+   "cod": "12",
+   "name": "Castelló/Castellón",
+   "ccaa": "10",
+   "ccaa_name": "Comunitat Valenciana",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -0.8463,
+    39.7147,
+    0.6903,
+    40.7886
+   ]
+  },
+  {
+   "id": 12,
+   "cod": "13",
+   "name": "Ciudad Real",
+   "ccaa": "08",
+   "ccaa_name": "Castilla-La Mancha",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -5.0469,
+    38.3428,
+    -2.6379,
+    39.5768
+   ]
+  },
+  {
+   "id": 13,
+   "cod": "14",
+   "name": "Córdoba",
+   "ccaa": "01",
+   "ccaa_name": "Andalucía",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -5.5859,
+    37.1841,
+    -4.0008,
+    38.7291
+   ]
+  },
+  {
+   "id": 14,
+   "cod": "15",
+   "name": "A Coruña",
+   "ccaa": "12",
+   "ccaa_name": "Galicia",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -9.3015,
+    42.459,
+    -7.6617,
+    43.7924
+   ]
+  },
+  {
+   "id": 15,
+   "cod": "16",
+   "name": "Cuenca",
+   "ccaa": "08",
+   "ccaa_name": "Castilla-La Mancha",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -3.1702,
+    39.2267,
+    -1.1424,
+    40.6587
+   ]
+  },
+  {
+   "id": 16,
+   "cod": "17",
+   "name": "Girona",
+   "ccaa": "09",
+   "ccaa_name": "Cataluña/Catalunya",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    1.7243,
+    41.6506,
+    3.3326,
+    42.4955
+   ]
+  },
+  {
+   "id": 17,
+   "cod": "18",
+   "name": "Granada",
+   "ccaa": "01",
+   "ccaa_name": "Andalucía",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -4.3281,
+    36.6935,
+    -2.2078,
+    38.0841
+   ]
+  },
+  {
+   "id": 18,
+   "cod": "19",
+   "name": "Guadalajara",
+   "ccaa": "08",
+   "ccaa_name": "Castilla-La Mancha",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -3.5411,
+    40.1525,
+    -1.5356,
+    41.3276
+   ]
+  },
+  {
+   "id": 19,
+   "cod": "20",
+   "name": "Gipuzkoa",
+   "ccaa": "16",
+   "ccaa_name": "País Vasco/Euskadi",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -2.6027,
+    42.8952,
+    -1.7293,
+    43.3959
+   ]
+  },
+  {
+   "id": 20,
+   "cod": "21",
+   "name": "Huelva",
+   "ccaa": "01",
+   "ccaa_name": "Andalucía",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -7.5229,
+    36.795,
+    -6.1216,
+    38.2083
+   ]
+  },
+  {
+   "id": 21,
+   "cod": "22",
+   "name": "Huesca",
+   "ccaa": "02",
+   "ccaa_name": "Aragón",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -0.9342,
+    41.3478,
+    0.7713,
+    42.9245
+   ]
+  },
+  {
+   "id": 22,
+   "cod": "23",
+   "name": "Jaén",
+   "ccaa": "01",
+   "ccaa_name": "Andalucía",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -4.2876,
+    37.3783,
+    -2.4354,
+    38.533
+   ]
+  },
+  {
+   "id": 23,
+   "cod": "24",
+   "name": "León",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -7.0771,
+    42.0292,
+    -4.7342,
+    43.2382
+   ]
+  },
+  {
+   "id": 24,
+   "cod": "25",
+   "name": "Lleida",
+   "ccaa": "09",
+   "ccaa_name": "Cataluña/Catalunya",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    0.32,
+    41.2741,
+    1.8551,
+    42.8615
+   ]
+  },
+  {
+   "id": 25,
+   "cod": "26",
+   "name": "La Rioja",
+   "ccaa": "17",
+   "ccaa_name": "La Rioja",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -3.1343,
+    41.919,
+    -1.6787,
+    42.6443
+   ]
+  },
+  {
+   "id": 26,
+   "cod": "27",
+   "name": "Lugo",
+   "ccaa": "12",
+   "ccaa_name": "Galicia",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -7.9997,
+    42.3257,
+    -6.8141,
+    43.7616
+   ]
+  },
+  {
+   "id": 27,
+   "cod": "28",
+   "name": "Madrid",
+   "ccaa": "13",
+   "ccaa_name": "Comunidad de Madrid",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -4.5791,
+    39.8847,
+    -3.053,
+    41.1658
+   ]
+  },
+  {
+   "id": 28,
+   "cod": "29",
+   "name": "Málaga",
+   "ccaa": "01",
+   "ccaa_name": "Andalucía",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -5.6118,
+    36.3103,
+    -3.766,
+    37.2822
+   ]
+  },
+  {
+   "id": 29,
+   "cod": "30",
+   "name": "Murcia",
+   "ccaa": "14",
+   "ccaa_name": "Región de Murcia",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -2.3442,
+    37.3738,
+    -0.648,
+    38.7551
+   ]
+  },
+  {
+   "id": 30,
+   "cod": "31",
+   "name": "Navarra",
+   "ccaa": "15",
+   "ccaa_name": "Comunidad Foral de Navarra",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -2.5001,
+    41.9099,
+    -0.724,
+    43.3148
+   ]
+  },
+  {
+   "id": 31,
+   "cod": "32",
+   "name": "Ourense",
+   "ccaa": "12",
+   "ccaa_name": "Galicia",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -8.3663,
+    41.8072,
+    -6.734,
+    42.5786
+   ]
+  },
+  {
+   "id": 32,
+   "cod": "33",
+   "name": "Asturias",
+   "ccaa": "03",
+   "ccaa_name": "Principado de Asturias",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -7.1825,
+    42.8825,
+    -4.5105,
+    43.6665
+   ]
+  },
+  {
+   "id": 33,
+   "cod": "34",
+   "name": "Palencia",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -5.0319,
+    41.7582,
+    -3.8896,
+    43.061
+   ]
+  },
+  {
+   "id": 34,
+   "cod": "35",
+   "name": "Las Palmas",
+   "ccaa": "05",
+   "ccaa_name": "Canarias",
+   "canary": true,
+   "withheld": false,
+   "bbox": [
+    -15.8346,
+    27.7345,
+    -13.335,
+    29.4165
+   ]
+  },
+  {
+   "id": 35,
+   "cod": "36",
+   "name": "Pontevedra",
+   "ccaa": "12",
+   "ccaa_name": "Galicia",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -8.9495,
+    41.8651,
+    -7.8614,
+    42.8602
+   ]
+  },
+  {
+   "id": 36,
+   "cod": "37",
+   "name": "Salamanca",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -6.9314,
+    40.2389,
+    -5.0898,
+    41.2943
+   ]
+  },
+  {
+   "id": 37,
+   "cod": "38",
+   "name": "Santa Cruz de Tenerife",
+   "ccaa": "05",
+   "ccaa_name": "Canarias",
+   "canary": true,
+   "withheld": false,
+   "bbox": [
+    -18.1612,
+    27.6377,
+    -16.1186,
+    28.8576
+   ]
+  },
+  {
+   "id": 38,
+   "cod": "39",
+   "name": "Cantabria",
+   "ccaa": "06",
+   "ccaa_name": "Cantabria",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -4.8518,
+    42.758,
+    -3.1496,
+    43.5137
+   ]
+  },
+  {
+   "id": 39,
+   "cod": "40",
+   "name": "Segovia",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -4.7247,
+    40.633,
+    -3.2069,
+    41.5861
+   ]
+  },
+  {
+   "id": 40,
+   "cod": "41",
+   "name": "Sevilla",
+   "ccaa": "01",
+   "ccaa_name": "Andalucía",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -6.5385,
+    36.8422,
+    -4.6534,
+    38.1974
+   ]
+  },
+  {
+   "id": 41,
+   "cod": "42",
+   "name": "Soria",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -3.5504,
+    41.0565,
+    -1.7754,
+    42.1467
+   ]
+  },
+  {
+   "id": 42,
+   "cod": "43",
+   "name": "Tarragona",
+   "ccaa": "09",
+   "ccaa_name": "Cataluña/Catalunya",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    0.1592,
+    40.523,
+    1.6532,
+    41.5826
+   ]
+  },
+  {
+   "id": 43,
+   "cod": "44",
+   "name": "Teruel",
+   "ccaa": "02",
+   "ccaa_name": "Aragón",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -1.8057,
+    39.8468,
+    0.2935,
+    41.3544
+   ]
+  },
+  {
+   "id": 44,
+   "cod": "45",
+   "name": "Toledo",
+   "ccaa": "08",
+   "ccaa_name": "Castilla-La Mancha",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -5.4062,
+    39.2584,
+    -2.9082,
+    40.3183
+   ]
+  },
+  {
+   "id": 45,
+   "cod": "46",
+   "name": "València/Valencia",
+   "ccaa": "10",
+   "ccaa_name": "Comunitat Valenciana",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -1.5289,
+    38.6866,
+    -0.0248,
+    40.2117
+   ]
+  },
+  {
+   "id": 46,
+   "cod": "47",
+   "name": "Valladolid",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -5.5209,
+    41.094,
+    -3.9804,
+    42.3118
+   ]
+  },
+  {
+   "id": 47,
+   "cod": "48",
+   "name": "Bizkaia",
+   "ccaa": "16",
+   "ccaa_name": "País Vasco/Euskadi",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -3.4503,
+    42.9819,
+    -2.4126,
+    43.4572
+   ]
+  },
+  {
+   "id": 48,
+   "cod": "49",
+   "name": "Zamora",
+   "ccaa": "07",
+   "ccaa_name": "Castilla y León",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -7.034,
+    41.1172,
+    -5.2289,
+    42.2542
+   ]
+  },
+  {
+   "id": 49,
+   "cod": "50",
+   "name": "Zaragoza",
+   "ccaa": "02",
+   "ccaa_name": "Aragón",
+   "canary": false,
+   "withheld": false,
+   "bbox": [
+    -2.1737,
+    40.9362,
+    0.3857,
+    42.7441
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "mean",
+   "label": {
+    "en": "Mean temperature",
+    "es": "Temperatura media"
+   }
+  },
+  {
+   "id": "delta",
+   "label": {
+    "en": "Population-weighting effect (Δ)",
+    "es": "Efecto de la ponderación por población (Δ)"
+   }
+  },
+  {
+   "id": "thresh",
+   "label": {
+    "en": "Threshold exposure",
+    "es": "Exposición a umbrales"
+   }
+  },
+  {
+   "id": "nights",
+   "label": {
+    "en": "Tropical and torrid nights",
+    "es": "Noches tropicales y tórridas"
+   }
+  },
+  {
+   "id": "dd",
+   "label": {
+    "en": "Degree-days",
+    "es": "Grados-día"
+   }
+  },
+  {
+   "id": "hw",
+   "label": {
+    "en": "Compound heatwaves",
+    "es": "Olas de calor compuestas"
+   }
+  },
+  {
+   "id": "hw_tx",
+   "label": {
+    "en": "AEMET-comparable heatwaves",
+    "es": "Olas de calor comparables con AEMET"
+   }
+  },
+  {
+   "id": "cw",
+   "label": {
+    "en": "Compound cold waves",
+    "es": "Olas de frío compuestas"
+   }
+  },
+  {
+   "id": "cw_tn",
+   "label": {
+    "en": "AEMET-comparable cold spells",
+    "es": "Olas de frío comparables con AEMET"
+   }
+  },
+  {
+   "id": "var",
+   "label": {
+    "en": "Within-province variability",
+    "es": "Variabilidad intraprovincial"
+   }
+  },
+  {
+   "id": "ref",
+   "label": {
+    "en": "Reference",
+    "es": "Referencia"
+   }
+  }
+ ],
+ "indicators": [
+  {
+   "id": "tmin_pw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily minimum temperature, population-weighted",
+    "es": "Temperatura mínima diaria, ponderada por población"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily minimum temperature, cells weighted by their resident population.",
+    "es": "Media anual de la temperatura mínima diaria, con las celdas ponderadas por su población residente."
+   },
+   "what": {
+    "en": "The daily minimum temperature experienced by the average resident over the year.",
+    "es": "Temperatura mínima diaria que, en promedio, vive la población a lo largo del año."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 2.9545,
+   "max": 17.3391,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    5.79,
+    7.23,
+    8.46,
+    9.57,
+    10.76,
+    12.51
+   ],
+   "counts": [
+    445,
+    442,
+    442,
+    443,
+    439,
+    445,
+    444
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "tmin_aw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily minimum temperature, area-weighted",
+    "es": "Temperatura mínima diaria, ponderada por superficie"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily minimum temperature, cells weighted by their area.",
+    "es": "Media anual de la temperatura mínima diaria, con las celdas ponderadas por su superficie."
+   },
+   "what": {
+    "en": "The daily minimum temperature averaged over the whole territory, regardless of where people live.",
+    "es": "Temperatura mínima diaria media del territorio, con independencia de dónde vive la población."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 2.7994,
+   "max": 16.5537,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    5.2,
+    6.26,
+    7.34,
+    8.38,
+    9.48,
+    11.08
+   ],
+   "counts": [
+    444,
+    445,
+    440,
+    443,
+    441,
+    442,
+    445
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_tmin_mean",
+   "group": "delta",
+   "label": {
+    "en": "Δ daily minimum temperature",
+    "es": "Δ temperatura mínima diaria"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual mean of the daily minimum temperature. Positive: residents live, on average, in warmer places than the territory of the unit as a whole.",
+    "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura mínima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
+   },
+   "what": {
+    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily minimum temperature.",
+    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura mínima diaria."
+   },
+   "scale": "div",
+   "dp": 2,
+   "derived": [
+    "tmin_pw_mean",
+    "tmin_aw_mean"
+   ],
+   "integer": false,
+   "min": -0.0948,
+   "max": 3.7599,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.31,
+    0.59,
+    0.77,
+    1.28,
+    1.99
+   ],
+   "counts": [
+    51,
+    515,
+    511,
+    492,
+    517,
+    506,
+    508
+   ],
+   "n_neg": 1
+  },
+  {
+   "id": "tmean_pw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily mean temperature, population-weighted",
+    "es": "Temperatura media diaria, ponderada por población"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily mean temperature, cells weighted by their resident population.",
+    "es": "Media anual de la temperatura media diaria, con las celdas ponderadas por su población residente."
+   },
+   "what": {
+    "en": "The daily mean temperature experienced by the average resident over the year.",
+    "es": "Temperatura media diaria que, en promedio, vive la población a lo largo del año."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 8.8844,
+   "max": 21.0425,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    11.81,
+    13.02,
+    13.95,
+    15.13,
+    16.48,
+    17.75
+   ],
+   "counts": [
+    439,
+    450,
+    441,
+    442,
+    436,
+    450,
+    442
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "tmean_aw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily mean temperature, area-weighted",
+    "es": "Temperatura media diaria, ponderada por superficie"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily mean temperature, cells weighted by their area.",
+    "es": "Media anual de la temperatura media diaria, con las celdas ponderadas por su superficie."
+   },
+   "what": {
+    "en": "The daily mean temperature averaged over the whole territory, regardless of where people live.",
+    "es": "Temperatura media diaria media del territorio, con independencia de dónde vive la población."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 8.3912,
+   "max": 20.4681,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    10.97,
+    11.79,
+    12.68,
+    13.94,
+    15.41,
+    16.64
+   ],
+   "counts": [
+    445,
+    447,
+    440,
+    440,
+    443,
+    441,
+    444
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_tmean_mean",
+   "group": "delta",
+   "label": {
+    "en": "Δ daily mean temperature",
+    "es": "Δ temperatura media diaria"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual mean of the daily mean temperature. Positive: residents live, on average, in warmer places than the territory of the unit as a whole.",
+    "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura media diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
+   },
+   "what": {
+    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily mean temperature.",
+    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura media diaria."
+   },
+   "scale": "div",
+   "dp": 2,
+   "derived": [
+    "tmean_pw_mean",
+    "tmean_aw_mean"
+   ],
+   "integer": false,
+   "min": -0.0529,
+   "max": 2.9682,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.32,
+    0.57,
+    0.89,
+    1.27,
+    1.92
+   ],
+   "counts": [
+    13,
+    510,
+    520,
+    515,
+    512,
+    516,
+    514
+   ],
+   "n_neg": 1
+  },
+  {
+   "id": "tmax_pw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily maximum temperature, population-weighted",
+    "es": "Temperatura máxima diaria, ponderada por población"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily maximum temperature, cells weighted by their resident population.",
+    "es": "Media anual de la temperatura máxima diaria, con las celdas ponderadas por su población residente."
+   },
+   "what": {
+    "en": "The daily maximum temperature experienced by the average resident over the year.",
+    "es": "Temperatura máxima diaria que, en promedio, vive la población a lo largo del año."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 14.5879,
+   "max": 26.807,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    17.44,
+    18.37,
+    19.61,
+    20.91,
+    22.07,
+    23.05
+   ],
+   "counts": [
+    446,
+    439,
+    444,
+    443,
+    443,
+    442,
+    443
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "tmax_aw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily maximum temperature, area-weighted",
+    "es": "Temperatura máxima diaria, ponderada por superficie"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily maximum temperature, cells weighted by their area.",
+    "es": "Media anual de la temperatura máxima diaria, con las celdas ponderadas por su superficie."
+   },
+   "what": {
+    "en": "The daily maximum temperature averaged over the whole territory, regardless of where people live.",
+    "es": "Temperatura máxima diaria media del territorio, con independencia de dónde vive la población."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 13.7914,
+   "max": 26.2563,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    16.43,
+    17.29,
+    18.15,
+    19.6,
+    21.09,
+    22.32
+   ],
+   "counts": [
+    444,
+    439,
+    441,
+    448,
+    441,
+    446,
+    441
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_tmax_mean",
+   "group": "delta",
+   "label": {
+    "en": "Δ daily maximum temperature",
+    "es": "Δ temperatura máxima diaria"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual mean of the daily maximum temperature. Positive: residents live, on average, in warmer places than the territory of the unit as a whole.",
+    "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura máxima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
+   },
+   "what": {
+    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily maximum temperature.",
+    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura máxima diaria."
+   },
+   "scale": "div",
+   "dp": 2,
+   "derived": [
+    "tmax_pw_mean",
+    "tmax_aw_mean"
+   ],
+   "integer": false,
+   "min": -0.4005,
+   "max": 3.6496,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.37,
+    0.64,
+    0.9,
+    1.33,
+    1.88
+   ],
+   "counts": [
+    124,
+    509,
+    488,
+    490,
+    496,
+    497,
+    496
+   ],
+   "n_neg": 1
+  },
+  {
+   "id": "tappmin_pw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily minimum apparent temperature, population-weighted",
+    "es": "Temperatura aparente mínima diaria, ponderada por población"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily minimum apparent temperature, cells weighted by their resident population.",
+    "es": "Media anual de la temperatura aparente mínima diaria, con las celdas ponderadas por su población residente."
+   },
+   "what": {
+    "en": "The daily minimum apparent temperature experienced by the average resident over the year.",
+    "es": "Temperatura aparente mínima diaria que, en promedio, vive la población a lo largo del año."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": -2.3211,
+   "max": 15.8479,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    1.97,
+    3.78,
+    5.27,
+    6.57,
+    8.04,
+    10.15
+   ],
+   "counts": [
+    442,
+    443,
+    441,
+    446,
+    445,
+    438,
+    445
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "tappmin_aw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily minimum apparent temperature, area-weighted",
+    "es": "Temperatura aparente mínima diaria, ponderada por superficie"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily minimum apparent temperature, cells weighted by their area.",
+    "es": "Media anual de la temperatura aparente mínima diaria, con las celdas ponderadas por su superficie."
+   },
+   "what": {
+    "en": "The daily minimum apparent temperature averaged over the whole territory, regardless of where people live.",
+    "es": "Temperatura aparente mínima diaria media del territorio, con independencia de dónde vive la población."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": -2.4873,
+   "max": 14.1727,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    1.12,
+    2.49,
+    4.06,
+    5.25,
+    6.41,
+    8.04
+   ],
+   "counts": [
+    442,
+    441,
+    449,
+    440,
+    441,
+    441,
+    446
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_tappmin_mean",
+   "group": "delta",
+   "label": {
+    "en": "Δ daily minimum apparent temperature",
+    "es": "Δ temperatura aparente mínima diaria"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual mean of the daily minimum apparent temperature. Positive: residents live, on average, in warmer places than the territory of the unit as a whole.",
+    "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente mínima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
+   },
+   "what": {
+    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily minimum apparent temperature.",
+    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura aparente mínima diaria."
+   },
+   "scale": "div",
+   "dp": 2,
+   "derived": [
+    "tappmin_pw_mean",
+    "tappmin_aw_mean"
+   ],
+   "integer": false,
+   "min": -0.1247,
+   "max": 4.4624,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.4,
+    0.76,
+    1.09,
+    1.65,
+    2.51
+   ],
+   "counts": [
+    24,
+    515,
+    506,
+    512,
+    517,
+    510,
+    516
+   ],
+   "n_neg": 1
+  },
+  {
+   "id": "tappmean_pw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily mean apparent temperature, population-weighted",
+    "es": "Temperatura aparente media diaria, ponderada por población"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily mean apparent temperature, cells weighted by their resident population.",
+    "es": "Media anual de la temperatura aparente media diaria, con las celdas ponderadas por su población residente."
+   },
+   "what": {
+    "en": "The daily mean apparent temperature experienced by the average resident over the year.",
+    "es": "Temperatura aparente media diaria que, en promedio, vive la población a lo largo del año."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 4.9579,
+   "max": 20.7058,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    9.11,
+    10.74,
+    12.0,
+    13.33,
+    14.93,
+    16.6
+   ],
+   "counts": [
+    442,
+    443,
+    444,
+    444,
+    443,
+    440,
+    444
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "tappmean_aw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily mean apparent temperature, area-weighted",
+    "es": "Temperatura aparente media diaria, ponderada por superficie"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily mean apparent temperature, cells weighted by their area.",
+    "es": "Media anual de la temperatura aparente media diaria, con las celdas ponderadas por su superficie."
+   },
+   "what": {
+    "en": "The daily mean apparent temperature averaged over the whole territory, regardless of where people live.",
+    "es": "Temperatura aparente media diaria media del territorio, con independencia de dónde vive la población."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 4.6409,
+   "max": 19.2824,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    7.99,
+    9.21,
+    10.46,
+    11.87,
+    13.34,
+    14.9
+   ],
+   "counts": [
+    442,
+    443,
+    444,
+    441,
+    444,
+    441,
+    445
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_tappmean_mean",
+   "group": "delta",
+   "label": {
+    "en": "Δ daily mean apparent temperature",
+    "es": "Δ temperatura aparente media diaria"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual mean of the daily mean apparent temperature. Positive: residents live, on average, in warmer places than the territory of the unit as a whole.",
+    "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente media diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
+   },
+   "what": {
+    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily mean apparent temperature.",
+    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura aparente media diaria."
+   },
+   "scale": "div",
+   "dp": 2,
+   "derived": [
+    "tappmean_pw_mean",
+    "tappmean_aw_mean"
+   ],
+   "integer": false,
+   "min": -0.0798,
+   "max": 4.4512,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.48,
+    0.8,
+    1.17,
+    1.79,
+    2.47
+   ],
+   "counts": [
+    21,
+    521,
+    502,
+    523,
+    510,
+    504,
+    519
+   ],
+   "n_neg": 1
+  },
+  {
+   "id": "tappmax_pw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily maximum apparent temperature, population-weighted",
+    "es": "Temperatura aparente máxima diaria, ponderada por población"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily maximum apparent temperature, cells weighted by their resident population.",
+    "es": "Media anual de la temperatura aparente máxima diaria, con las celdas ponderadas por su población residente."
+   },
+   "what": {
+    "en": "The daily maximum apparent temperature experienced by the average resident over the year.",
+    "es": "Temperatura aparente máxima diaria que, en promedio, vive la población a lo largo del año."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 12.5852,
+   "max": 28.4332,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    16.39,
+    17.78,
+    19.2,
+    20.79,
+    22.23,
+    23.57
+   ],
+   "counts": [
+    442,
+    447,
+    439,
+    441,
+    449,
+    436,
+    446
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "tappmax_aw_mean",
+   "group": "mean",
+   "label": {
+    "en": "Daily maximum apparent temperature, area-weighted",
+    "es": "Temperatura aparente máxima diaria, ponderada por superficie"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily maximum apparent temperature, cells weighted by their area.",
+    "es": "Media anual de la temperatura aparente máxima diaria, con las celdas ponderadas por su superficie."
+   },
+   "what": {
+    "en": "The daily maximum apparent temperature averaged over the whole territory, regardless of where people live.",
+    "es": "Temperatura aparente máxima diaria media del territorio, con independencia de dónde vive la población."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 11.7603,
+   "max": 27.437,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    15.04,
+    16.21,
+    17.38,
+    18.9,
+    20.74,
+    22.45
+   ],
+   "counts": [
+    443,
+    446,
+    443,
+    439,
+    441,
+    443,
+    445
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_tappmax_mean",
+   "group": "delta",
+   "label": {
+    "en": "Δ daily maximum apparent temperature",
+    "es": "Δ temperatura aparente máxima diaria"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual mean of the daily maximum apparent temperature. Positive: residents live, on average, in warmer places than the territory of the unit as a whole.",
+    "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente máxima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
+   },
+   "what": {
+    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily maximum apparent temperature.",
+    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura aparente máxima diaria."
+   },
+   "scale": "div",
+   "dp": 2,
+   "derived": [
+    "tappmax_pw_mean",
+    "tappmax_aw_mean"
+   ],
+   "integer": false,
+   "min": -0.6946,
+   "max": 4.866,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.55,
+    0.91,
+    1.26,
+    1.72,
+    2.6
+   ],
+   "counts": [
+    82,
+    496,
+    512,
+    504,
+    499,
+    505,
+    502
+   ],
+   "n_neg": 1
+  },
+  {
+   "id": "exp_hot",
+   "group": "thresh",
+   "label": {
+    "en": "Extreme-heat days per resident",
+    "es": "Días de calor extremo por residente"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Mean number of days per resident in the year with a daily maximum above 35 °C in the resident's cell: the daily share of residents exposed, summed over the year (0–365).",
+    "es": "Número medio de días por residente en el año con máxima diaria superior a 35 °C en su celda: la fracción diaria de residentes expuestos, sumada a lo largo del año (0–365)."
+   },
+   "what": {
+    "en": "How many days of the year the average resident had a maximum above 35 °C.",
+    "es": "Cuántos días del año tuvo el residente medio una máxima superior a 35 °C."
+   },
+   "scale": "warm",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 74.8438,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.3,
+    1.3,
+    3.1,
+    6.4,
+    13.2,
+    28.1
+   ],
+   "counts": [
+    462,
+    421,
+    430,
+    458,
+    441,
+    446,
+    442
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "exp_hot_aw",
+   "group": "thresh",
+   "label": {
+    "en": "Extreme-heat days, area-weighted",
+    "es": "Días de calor extremo (ponderación por superficie)"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Area-weighted counterpart of the previous indicator: the daily share of the territory with a daily maximum above 35 °C, summed over the year (0–365).",
+    "es": "Equivalente ponderado por superficie del indicador anterior: la fracción diaria del territorio con máxima diaria superior a 35 °C, sumada a lo largo del año (0–365)."
+   },
+   "what": {
+    "en": "",
+    "es": ""
+   },
+   "scale": "warm",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 69.4883,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.2,
+    1.1,
+    2.5,
+    5.0,
+    10.0,
+    24.9
+   ],
+   "counts": [
+    391,
+    508,
+    427,
+    443,
+    444,
+    443,
+    444
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_exp_hot",
+   "group": "delta",
+   "label": {
+    "en": "Δ extreme-heat days",
+    "es": "Δ días de calor extremo"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual count (daily maximum above 35 °C). Positive: residents are exposed more often than the territory as a whole.",
+    "es": "Diferencia entre el recuento anual ponderado por población y el ponderado por superficie (máxima diaria superior a 35 °C). Positiva: los residentes están expuestos con más frecuencia que el conjunto del territorio."
+   },
+   "what": {
+    "en": "",
+    "es": ""
+   },
+   "scale": "div",
+   "dp": 1,
+   "derived": [
+    "exp_hot",
+    "exp_hot_aw"
+   ],
+   "integer": false,
+   "min": -17.5072,
+   "max": 24.6677,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    -0.5,
+    0.0,
+    0.4,
+    1.3,
+    2.8,
+    5.3
+   ],
+   "counts": [
+    460,
+    523,
+    432,
+    435,
+    411,
+    409,
+    430
+   ],
+   "n_neg": 2
+  },
+  {
+   "id": "exp_frost",
+   "group": "thresh",
+   "label": {
+    "en": "Frost nights per resident",
+    "es": "Noches de helada por residente"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Mean number of days per resident in the year with a daily minimum below 0 °C in the resident's cell: the daily share of residents exposed, summed over the year (0–365).",
+    "es": "Número medio de días por residente en el año con mínima diaria inferior a 0 °C en su celda: la fracción diaria de residentes expuestos, sumada a lo largo del año (0–365)."
+   },
+   "what": {
+    "en": "How many nights of the year the average resident had a minimum below 0 °C.",
+    "es": "Cuántas noches del año tuvo el residente medio una mínima inferior a 0 °C."
+   },
+   "scale": "cool",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 140.6405,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    1.5,
+    5.5,
+    13.5,
+    27.1,
+    46.7,
+    66.0
+   ],
+   "counts": [
+    451,
+    436,
+    440,
+    444,
+    441,
+    444,
+    444
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "exp_frost_aw",
+   "group": "thresh",
+   "label": {
+    "en": "Frost nights, area-weighted",
+    "es": "Noches de helada (ponderación por superficie)"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Area-weighted counterpart of the previous indicator: the daily share of the territory with a daily minimum below 0 °C, summed over the year (0–365).",
+    "es": "Equivalente ponderado por superficie del indicador anterior: la fracción diaria del territorio con mínima diaria inferior a 0 °C, sumada a lo largo del año (0–365)."
+   },
+   "what": {
+    "en": "",
+    "es": ""
+   },
+   "scale": "cool",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 143.055,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    5.4,
+    14.5,
+    26.2,
+    39.5,
+    56.6,
+    77.7
+   ],
+   "counts": [
+    441,
+    443,
+    446,
+    442,
+    443,
+    441,
+    444
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_exp_frost",
+   "group": "delta",
+   "label": {
+    "en": "Δ frost nights",
+    "es": "Δ noches de helada"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual count (daily minimum below 0 °C). Positive: residents are exposed more often than the territory as a whole.",
+    "es": "Diferencia entre el recuento anual ponderado por población y el ponderado por superficie (mínima diaria inferior a 0 °C). Positiva: los residentes están expuestos con más frecuencia que el conjunto del territorio."
+   },
+   "what": {
+    "en": "",
+    "es": ""
+   },
+   "scale": "div",
+   "dp": 1,
+   "derived": [
+    "exp_frost",
+    "exp_frost_aw"
+   ],
+   "integer": false,
+   "min": -54.5684,
+   "max": 7.6133,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    -18.2,
+    -11.4,
+    -7.5,
+    -4.3,
+    -1.6,
+    0.0
+   ],
+   "counts": [
+    476,
+    478,
+    475,
+    486,
+    481,
+    476,
+    228
+   ],
+   "n_neg": 6
+  },
+  {
+   "id": "exp_trop",
+   "group": "thresh",
+   "label": {
+    "en": "Tropical nights per resident",
+    "es": "Noches tropicales por residente"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Mean number of days per resident in the year with a daily minimum at or above 20 °C in the resident's cell: the daily share of residents exposed, summed over the year (0–365).",
+    "es": "Número medio de días por residente en el año con mínima diaria igual o superior a 20 °C en su celda: la fracción diaria de residentes expuestos, sumada a lo largo del año (0–365)."
+   },
+   "what": {
+    "en": "How many nights of the year the average resident had a minimum of 20 °C or more.",
+    "es": "Cuántas noches del año tuvo el residente medio una mínima de 20 °C o más."
+   },
+   "scale": "warm",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 94.0414,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.3,
+    2.4,
+    8.1,
+    19.3,
+    39.0
+   ],
+   "counts": [
+    550,
+    434,
+    420,
+    421,
+    427,
+    423,
+    425
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "exp_trop_aw",
+   "group": "thresh",
+   "label": {
+    "en": "Tropical nights, area-weighted",
+    "es": "Noches tropicales (ponderación por superficie)"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Area-weighted counterpart of the previous indicator: the daily share of the territory with a daily minimum at or above 20 °C, summed over the year (0–365).",
+    "es": "Equivalente ponderado por superficie del indicador anterior: la fracción diaria del territorio con mínima diaria igual o superior a 20 °C, sumada a lo largo del año (0–365)."
+   },
+   "what": {
+    "en": "",
+    "es": ""
+   },
+   "scale": "warm",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 73.8887,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.1,
+    1.0,
+    4.3,
+    10.3,
+    21.5
+   ],
+   "counts": [
+    502,
+    438,
+    434,
+    424,
+    434,
+    435,
+    433
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_exp_trop",
+   "group": "delta",
+   "label": {
+    "en": "Δ tropical nights",
+    "es": "Δ noches tropicales"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual count (daily minimum at or above 20 °C). Positive: residents are exposed more often than the territory as a whole.",
+    "es": "Diferencia entre el recuento anual ponderado por población y el ponderado por superficie (mínima diaria igual o superior a 20 °C). Positiva: los residentes están expuestos con más frecuencia que el conjunto del territorio."
+   },
+   "what": {
+    "en": "",
+    "es": ""
+   },
+   "scale": "div",
+   "dp": 1,
+   "derived": [
+    "exp_trop",
+    "exp_trop_aw"
+   ],
+   "integer": false,
+   "min": -9.607,
+   "max": 50.6693,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.3,
+    1.1,
+    3.1,
+    7.1,
+    18.6
+   ],
+   "counts": [
+    842,
+    407,
+    334,
+    392,
+    373,
+    375,
+    377
+   ],
+   "n_neg": 1
+  },
+  {
+   "id": "exp_torrid",
+   "group": "thresh",
+   "label": {
+    "en": "Torrid nights per resident",
+    "es": "Noches tórridas por residente"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Mean number of days per resident in the year with a daily minimum at or above 25 °C in the resident's cell: the daily share of residents exposed, summed over the year (0–365).",
+    "es": "Número medio de días por residente en el año con mínima diaria igual o superior a 25 °C en su celda: la fracción diaria de residentes expuestos, sumada a lo largo del año (0–365)."
+   },
+   "what": {
+    "en": "How many nights of the year the average resident had a minimum of 25 °C or more.",
+    "es": "Cuántas noches del año tuvo el residente medio una mínima de 25 °C o más."
+   },
+   "scale": "warm",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 20.2721,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.1,
+    0.4,
+    1.0
+   ],
+   "counts": [
+    2341,
+    359,
+    155,
+    116,
+    129
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "exp_torrid_aw",
+   "group": "thresh",
+   "label": {
+    "en": "Torrid nights, area-weighted",
+    "es": "Noches tórridas (ponderación por superficie)"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Area-weighted counterpart of the previous indicator: the daily share of the territory with a daily minimum at or above 25 °C, summed over the year (0–365).",
+    "es": "Equivalente ponderado por superficie del indicador anterior: la fracción diaria del territorio con mínima diaria igual o superior a 25 °C, sumada a lo largo del año (0–365)."
+   },
+   "what": {
+    "en": "",
+    "es": ""
+   },
+   "scale": "warm",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 6.2224,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.2,
+    0.6
+   ],
+   "counts": [
+    2300,
+    553,
+    117,
+    130
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_exp_torrid",
+   "group": "delta",
+   "label": {
+    "en": "Δ torrid nights",
+    "es": "Δ noches tórridas"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual count (daily minimum at or above 25 °C). Positive: residents are exposed more often than the territory as a whole.",
+    "es": "Diferencia entre el recuento anual ponderado por población y el ponderado por superficie (mínima diaria igual o superior a 25 °C). Positiva: los residentes están expuestos con más frecuencia que el conjunto del territorio."
+   },
+   "what": {
+    "en": "",
+    "es": ""
+   },
+   "scale": "div",
+   "dp": 1,
+   "derived": [
+    "exp_torrid",
+    "exp_torrid_aw"
+   ],
+   "integer": false,
+   "min": -3.6975,
+   "max": 14.0496,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    0.1,
+    0.3,
+    0.7
+   ],
+   "counts": [
+    2595,
+    252,
+    89,
+    81,
+    83
+   ],
+   "n_neg": 1
+  },
+  {
+   "id": "episodes_trop",
+   "group": "nights",
+   "label": {
+    "en": "Runs of tropical nights",
+    "es": "Rachas de noches tropicales"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of runs of consecutive nights on which at least one resident's cell had a minimum at or above 20 °C.",
+    "es": "Número de rachas de noches consecutivas en que la celda de al menos un residente tuvo una mínima igual o superior a 20 °C."
+   },
+   "what": {
+    "en": "Number of spells of consecutive tropical nights (minimum of 20 °C or more) in the year.",
+    "es": "Número de rachas de noches tropicales consecutivas (mínima de 20 °C o más) en el año."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 29.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    2.0,
+    5.0,
+    8.0,
+    9.0,
+    12.0
+   ],
+   "counts": [
+    518,
+    435,
+    432,
+    624,
+    246,
+    506,
+    339
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "maxrun_trop",
+   "group": "nights",
+   "label": {
+    "en": "Longest run of tropical nights",
+    "es": "Racha más larga de noches tropicales"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Length of the longest such run in the year (nights).",
+    "es": "Duración de la racha más larga del año (noches)."
+   },
+   "what": {
+    "en": "The longest spell of consecutive tropical nights in the year.",
+    "es": "La racha más larga de noches tropicales consecutivas del año."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 117.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    2.0,
+    5.0,
+    10.0,
+    18.0,
+    40.0
+   ],
+   "counts": [
+    518,
+    530,
+    385,
+    439,
+    397,
+    408,
+    423
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "int_trop_mean",
+   "group": "nights",
+   "label": {
+    "en": "Intensity of tropical nights",
+    "es": "Intensidad de las noches tropicales"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Mean over those nights of the population-weighted excess of the minimum above 20 °C in the exposed cells. Undefined in years without such nights.",
+    "es": "Media, sobre esas noches, del exceso de la mínima sobre 20 °C en las celdas expuestas, ponderado por población. No definida en años sin tales noches."
+   },
+   "what": {
+    "en": "How far, on average, night-time temperatures exceeded 20 °C on tropical nights.",
+    "es": "Cuánto superó, en promedio, la temperatura nocturna los 20 °C en las noches tropicales."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.0051,
+   "max": 2.7085,
+   "n": 2582,
+   "n_null": 518,
+   "breaks": [
+    0.3,
+    0.42,
+    0.54,
+    0.65,
+    0.81,
+    1.08
+   ],
+   "counts": [
+    373,
+    351,
+    406,
+    337,
+    372,
+    376,
+    367
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_torrid",
+   "group": "nights",
+   "label": {
+    "en": "Runs of torrid nights",
+    "es": "Rachas de noches tórridas"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of runs of consecutive nights on which at least one resident's cell had a minimum at or above 25 °C.",
+    "es": "Número de rachas de noches consecutivas en que la celda de al menos un residente tuvo una mínima igual o superior a 25 °C."
+   },
+   "what": {
+    "en": "Number of spells of consecutive torrid nights (minimum of 25 °C or more) in the year.",
+    "es": "Número de rachas de noches tórridas consecutivas (mínima de 25 °C o más) en el año."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 13.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    6.0
+   ],
+   "counts": [
+    2316,
+    292,
+    156,
+    93,
+    147,
+    96
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "maxrun_torrid",
+   "group": "nights",
+   "label": {
+    "en": "Longest run of torrid nights",
+    "es": "Racha más larga de noches tórridas"
+   },
+   "unit": {
+    "en": "nights",
+    "es": "noches"
+   },
+   "desc": {
+    "en": "Length of the longest such run in the year (nights).",
+    "es": "Duración de la racha más larga del año (noches)."
+   },
+   "what": {
+    "en": "The longest spell of consecutive torrid nights in the year.",
+    "es": "La racha más larga de noches tórridas consecutivas del año."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 29.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0
+   ],
+   "counts": [
+    2316,
+    339,
+    151,
+    117,
+    68,
+    109
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "int_torrid_mean",
+   "group": "nights",
+   "label": {
+    "en": "Intensity of torrid nights",
+    "es": "Intensidad de las noches tórridas"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Mean over those nights of the population-weighted excess of the minimum above 25 °C in the exposed cells. Undefined in years without such nights.",
+    "es": "Media, sobre esas noches, del exceso de la mínima sobre 25 °C en las celdas expuestas, ponderado por población. No definida en años sin tales noches."
+   },
+   "what": {
+    "en": "How far, on average, night-time temperatures exceeded 25 °C on torrid nights.",
+    "es": "Cuánto superó, en promedio, la temperatura nocturna los 25 °C en las noches tórridas."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.0014,
+   "max": 3.7085,
+   "n": 784,
+   "n_null": 2316,
+   "breaks": [
+    0.14,
+    0.23,
+    0.29,
+    0.38,
+    0.5,
+    0.7
+   ],
+   "counts": [
+    108,
+    126,
+    102,
+    110,
+    108,
+    117,
+    113
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "dd_heat_pw_total",
+   "group": "dd",
+   "label": {
+    "en": "Heat degree-days, population-weighted",
+    "es": "Grados-día de calor, ponderada por población"
+   },
+   "unit": {
+    "en": "°C·day",
+    "es": "°C·día"
+   },
+   "desc": {
+    "en": "Sum over the year of the daily excess of the daily maximum above 30 °C, cells weighted by their resident population.",
+    "es": "Suma anual del exceso diario de la máxima diaria sobre 30 °C, con las celdas ponderadas por su población residente."
+   },
+   "what": {
+    "en": "Heat accumulated above 30 °C over the year where people live: it grows with both the number and the heat of hot days.",
+    "es": "Calor acumulado por encima de 30 °C a lo largo del año donde vive la población: aumenta con el número y con el calor de los días cálidos."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": false,
+   "min": 0.004,
+   "max": 798.7342,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    23.0,
+    51.0,
+    85.0,
+    128.0,
+    201.0,
+    339.0
+   ],
+   "counts": [
+    446,
+    441,
+    445,
+    442,
+    438,
+    446,
+    442
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "dd_heat_aw_total",
+   "group": "dd",
+   "label": {
+    "en": "Heat degree-days, area-weighted",
+    "es": "Grados-día de calor, ponderada por superficie"
+   },
+   "unit": {
+    "en": "°C·day",
+    "es": "°C·día"
+   },
+   "desc": {
+    "en": "Sum over the year of the daily excess of the daily maximum above 30 °C, cells weighted by their area.",
+    "es": "Suma anual del exceso diario de la máxima diaria sobre 30 °C, con las celdas ponderadas por su superficie."
+   },
+   "what": {
+    "en": "Heat accumulated above 30 °C over the year across the whole territory.",
+    "es": "Calor acumulado por encima de 30 °C a lo largo del año en todo el territorio."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": false,
+   "min": 0.1089,
+   "max": 728.7555,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    21.0,
+    42.0,
+    68.0,
+    105.0,
+    171.0,
+    308.0
+   ],
+   "counts": [
+    451,
+    427,
+    448,
+    445,
+    445,
+    437,
+    447
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "dd_heat_days",
+   "group": "dd",
+   "label": {
+    "en": "Days with heat degree-days",
+    "es": "Días con grados-día de calor"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Days in the year with a positive population-weighted daily excess (daily maximum above 30 °C in at least one resident's cell).",
+    "es": "Días del año con exceso diario ponderado por población positivo (máxima diaria sobre 30 °C en la celda de al menos un residente)."
+   },
+   "what": {
+    "en": "Days of the year with a maximum above 30 °C somewhere people live.",
+    "es": "Días del año con una máxima superior a 30 °C en algún lugar habitado."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 3.0,
+   "max": 163.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    41.0,
+    60.0,
+    77.0,
+    93.0,
+    107.0,
+    122.0
+   ],
+   "counts": [
+    444,
+    449,
+    442,
+    443,
+    443,
+    453,
+    426
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_dd_heat_total",
+   "group": "delta",
+   "label": {
+    "en": "Δ heat degree-days",
+    "es": "Δ grados-día de calor"
+   },
+   "unit": {
+    "en": "°C·day",
+    "es": "°C·día"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual heat degree-days.",
+    "es": "Diferencia entre los grados-día de calor anuales ponderados por población y los ponderados por superficie."
+   },
+   "what": {
+    "en": "How much more (positive) or less (negative) heat accumulates where people live than across the territory as a whole.",
+    "es": "Cuánto más (valor positivo) o menos (negativo) calor se acumula donde vive la población que en el conjunto del territorio."
+   },
+   "scale": "div",
+   "dp": 1,
+   "derived": [
+    "dd_heat_pw_total",
+    "dd_heat_aw_total"
+   ],
+   "integer": false,
+   "min": -141.4601,
+   "max": 224.1552,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    -10.8,
+    0.0,
+    6.4,
+    17.3,
+    31.5,
+    55.1
+   ],
+   "counts": [
+    392,
+    391,
+    468,
+    459,
+    463,
+    463,
+    464
+   ],
+   "n_neg": 2
+  },
+  {
+   "id": "dd_cold_pw_total",
+   "group": "dd",
+   "label": {
+    "en": "Cold degree-days, population-weighted",
+    "es": "Grados-día de frío, ponderada por población"
+   },
+   "unit": {
+    "en": "°C·day",
+    "es": "°C·día"
+   },
+   "desc": {
+    "en": "Sum over the year of the daily excess of the daily minimum below 0 °C, cells weighted by their resident population.",
+    "es": "Suma anual del exceso diario de la mínima diaria bajo 0 °C, con las celdas ponderadas por su población residente."
+   },
+   "what": {
+    "en": "Cold accumulated below 0 °C over the year where people live: it grows with both the number and the severity of frosts.",
+    "es": "Frío acumulado por debajo de 0 °C a lo largo del año donde vive la población: aumenta con el número y con la intensidad de las heladas."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 532.4832,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    2.0,
+    7.0,
+    20.0,
+    49.0,
+    101.0,
+    168.0
+   ],
+   "counts": [
+    502,
+    387,
+    437,
+    436,
+    454,
+    438,
+    446
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "dd_cold_aw_total",
+   "group": "dd",
+   "label": {
+    "en": "Cold degree-days, area-weighted",
+    "es": "Grados-día de frío, ponderada por superficie"
+   },
+   "unit": {
+    "en": "°C·day",
+    "es": "°C·día"
+   },
+   "desc": {
+    "en": "Sum over the year of the daily excess of the daily minimum below 0 °C, cells weighted by their area.",
+    "es": "Suma anual del exceso diario de la mínima diaria bajo 0 °C, con las celdas ponderadas por su superficie."
+   },
+   "what": {
+    "en": "Cold accumulated below 0 °C over the year across the whole territory.",
+    "es": "Frío acumulado por debajo de 0 °C a lo largo del año en todo el territorio."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 532.5364,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    7.0,
+    21.0,
+    47.0,
+    83.0,
+    136.0,
+    210.0
+   ],
+   "counts": [
+    462,
+    421,
+    450,
+    444,
+    440,
+    441,
+    442
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "dd_cold_days",
+   "group": "dd",
+   "label": {
+    "en": "Days with cold degree-days",
+    "es": "Días con grados-día de frío"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Days in the year with a positive population-weighted daily excess (daily minimum below 0 °C in at least one resident's cell).",
+    "es": "Días del año con exceso diario ponderado por población positivo (mínima diaria bajo 0 °C en la celda de al menos un residente)."
+   },
+   "what": {
+    "en": "Days of the year with a minimum below 0 °C somewhere people live.",
+    "es": "Días del año con una mínima inferior a 0 °C en algún lugar habitado."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 236.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    35.0,
+    62.0,
+    91.0,
+    115.0,
+    136.0,
+    156.0
+   ],
+   "counts": [
+    451,
+    445,
+    448,
+    441,
+    441,
+    450,
+    424
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "delta_dd_cold_total",
+   "group": "delta",
+   "label": {
+    "en": "Δ cold degree-days",
+    "es": "Δ grados-día de frío"
+   },
+   "unit": {
+    "en": "°C·day",
+    "es": "°C·día"
+   },
+   "desc": {
+    "en": "Difference between the population-weighted and the area-weighted annual cold degree-days.",
+    "es": "Diferencia entre los grados-día de frío anuales ponderados por población y los ponderados por superficie."
+   },
+   "what": {
+    "en": "How much more (positive) or less (negative) cold accumulates where people live than across the territory as a whole.",
+    "es": "Cuánto más (valor positivo) o menos (negativo) frío se acumula donde vive la población que en el conjunto del territorio."
+   },
+   "scale": "div",
+   "dp": 1,
+   "derived": [
+    "dd_cold_pw_total",
+    "dd_cold_aw_total"
+   ],
+   "integer": false,
+   "min": -215.6149,
+   "max": 29.1907,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    -50.8,
+    -30.8,
+    -18.7,
+    -9.6,
+    -2.7,
+    0.0
+   ],
+   "counts": [
+    469,
+    471,
+    468,
+    468,
+    468,
+    474,
+    282
+   ],
+   "n_neg": 6
+  },
+  {
+   "id": "days_hw_ge1",
+   "group": "hw",
+   "label": {
+    "en": "Days in a compound heatwave, all spells",
+    "es": "Días en ola de calor compuesta, todas las duraciones"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Number of days in the year in the event. A day is in the event when: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Número de días del año en el evento. Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Days of the year under a compound heatwave. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
+    "es": "Días del año en ola de calor compuesta. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 41.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    5.0,
+    9.0
+   ],
+   "counts": [
+    926,
+    479,
+    387,
+    251,
+    370,
+    354,
+    333
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "days_hw_ge3",
+   "group": "hw",
+   "label": {
+    "en": "Days in a compound heatwave of ≥3 days",
+    "es": "Días en ola de calor compuesta de ≥3 días"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Days lying in an episode of at least three consecutive event days. A day is in the event when: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Días incluidos en un episodio de al menos tres días consecutivos. Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Days of the year under a compound heatwave lasting at least three days. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
+    "es": "Días del año en ola de calor compuesta de al menos tres días. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 32.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    3.0,
+    4.0,
+    5.0,
+    7.0,
+    10.0
+   ],
+   "counts": [
+    2234,
+    286,
+    123,
+    69,
+    156,
+    93,
+    139
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_hw_ge1",
+   "group": "hw",
+   "label": {
+    "en": "Compound heatwaves, all spells",
+    "es": "Olas de calor compuestas, todas las duraciones"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of distinct episodes (runs of consecutive event days). A day is in the event when: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Número de episodios distintos (rachas de días consecutivos en el evento). Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Number of compound heatwaves in the year, of any length. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
+    "es": "Número de olas de calor compuestas en el año, de cualquier duración. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 13.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0
+   ],
+   "counts": [
+    926,
+    821,
+    516,
+    327,
+    227,
+    283
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_hw_ge3",
+   "group": "hw",
+   "label": {
+    "en": "Compound heatwaves of ≥3 days",
+    "es": "Olas de calor compuestas de ≥3 días"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of episodes lasting at least three consecutive days. A day is in the event when: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Número de episodios de al menos tres días consecutivos. Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Number of compound heatwaves of at least three days in the year. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
+    "es": "Número de olas de calor compuestas de al menos tres días en el año. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 6.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0
+   ],
+   "counts": [
+    2234,
+    559,
+    201,
+    106
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "maxdur_hw",
+   "group": "hw",
+   "label": {
+    "en": "Longest compound heatwave",
+    "es": "Ola de calor compuesta más larga"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Length of the longest episode in the year (days). A day is in the event when: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Duración del episodio más largo del año (días). Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Duration of the longest compound heatwave of the year. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
+    "es": "Duración de la ola de calor compuesta más larga del año. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 18.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0
+   ],
+   "counts": [
+    926,
+    726,
+    582,
+    345,
+    211,
+    310
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "exp_hw_ge3",
+   "group": "hw",
+   "label": {
+    "en": "Compound heatwave days per resident (≥3-day episodes)",
+    "es": "Días de ola de calor compuesta por residente (episodios de ≥3 días)"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Share of residents in the event, summed over the days lying in episodes of at least three days: the days the average resident spent in the event.",
+    "es": "Fracción de residentes en el evento, sumada sobre los días de episodios de al menos tres días: los días que el residente medio pasó en el evento."
+   },
+   "what": {
+    "en": "Days the average resident spent under a compound heatwave of at least three days. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
+    "es": "Días que el residente medio pasó en ola de calor compuesta de al menos tres días. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "warm",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 23.1696,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.4,
+    2.1,
+    3.0,
+    4.2,
+    6.5
+   ],
+   "counts": [
+    2234,
+    147,
+    140,
+    155,
+    141,
+    138,
+    145
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "mag_hw_day_ge3_mean",
+   "group": "hw",
+   "label": {
+    "en": "Compound heatwave intensity, daytime",
+    "es": "Intensidad de la ola de calor compuesta, diurna"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Mean, over the days in episodes of at least three days, of the population-weighted distance of the daily maximum above the 95th percentile in the event cells. Undefined in years without such episodes.",
+    "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la máxima diaria por encima del 95 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
+   },
+   "what": {
+    "en": "How far, on average, the daytime maximum went above its local 95th percentile (1971–2000) during compound heatwaves of at least three days.",
+    "es": "Cuánto se situó, en promedio, la máxima diurna por encima de su percentil 95 local (1971–2000) durante las olas de calor compuestas de al menos tres días."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.219,
+   "max": 7.3486,
+   "n": 866,
+   "n_null": 2234,
+   "breaks": [
+    0.85,
+    1.16,
+    1.46,
+    1.72,
+    2.08,
+    2.72
+   ],
+   "counts": [
+    126,
+    122,
+    124,
+    122,
+    125,
+    123,
+    124
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "mag_hw_night_ge3_mean",
+   "group": "hw",
+   "label": {
+    "en": "Compound heatwave intensity, night-time",
+    "es": "Intensidad de la ola de calor compuesta, nocturna"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Mean, over the days in episodes of at least three days, of the population-weighted distance of the daily minimum above the 95th percentile in the event cells. Undefined in years without such episodes.",
+    "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la mínima diaria por encima del 95 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
+   },
+   "what": {
+    "en": "How far, on average, the night-time minimum went above its local 95th percentile (1971–2000) during compound heatwaves of at least three days.",
+    "es": "Cuánto se situó, en promedio, la mínima nocturna por encima de su percentil 95 local (1971–2000) durante las olas de calor compuestas de al menos tres días."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.2278,
+   "max": 3.5735,
+   "n": 866,
+   "n_null": 2234,
+   "breaks": [
+    0.7,
+    0.89,
+    1.08,
+    1.27,
+    1.48,
+    1.83
+   ],
+   "counts": [
+    124,
+    125,
+    124,
+    122,
+    123,
+    123,
+    125
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "days_hw_tx_ge1",
+   "group": "hw_tx",
+   "label": {
+    "en": "Days in a single-threshold heatwave, all spells",
+    "es": "Días en ola de calor de umbral único, todas las duraciones"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Number of days in the year in the event. A day is in the event when: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Número de días del año en el evento. Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
+   },
+   "what": {
+    "en": "Days of the year under a single-threshold heatwave. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Días del año en ola de calor de umbral único. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 55.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    3.0,
+    6.0,
+    8.0,
+    11.0,
+    15.0
+   ],
+   "counts": [
+    188,
+    508,
+    680,
+    396,
+    484,
+    364,
+    480
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "days_hw_tx_ge3",
+   "group": "hw_tx",
+   "label": {
+    "en": "Days in a single-threshold heatwave of ≥3 days",
+    "es": "Días en ola de calor de umbral único de ≥3 días"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Days lying in an episode of at least three consecutive event days. A day is in the event when: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Días incluidos en un episodio de al menos tres días consecutivos. Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
+   },
+   "what": {
+    "en": "Days of the year under a single-threshold heatwave lasting at least three days. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Días del año en ola de calor de umbral único de al menos tres días. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 47.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    3.0,
+    4.0,
+    6.0,
+    8.0,
+    13.0
+   ],
+   "counts": [
+    1135,
+    536,
+    251,
+    302,
+    266,
+    325,
+    285
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_hw_tx_ge1",
+   "group": "hw_tx",
+   "label": {
+    "en": "Single-threshold heatwaves, all spells",
+    "es": "Olas de calor de umbral único, todas las duraciones"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of distinct episodes (runs of consecutive event days). A day is in the event when: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Número de episodios distintos (rachas de días consecutivos en el evento). Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
+   },
+   "what": {
+    "en": "Number of single-threshold heatwaves in the year, of any length. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Número de olas de calor de umbral único en el año, de cualquier duración. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 15.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    7.0
+   ],
+   "counts": [
+    188,
+    795,
+    508,
+    465,
+    329,
+    434,
+    381
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_hw_tx_ge3",
+   "group": "hw_tx",
+   "label": {
+    "en": "Single-threshold heatwaves of ≥3 days",
+    "es": "Olas de calor de umbral único de ≥3 días"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of episodes lasting at least three consecutive days. A day is in the event when: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory. With the territorial rule this is the closest reproduction of AEMET's count.",
+    "es": "Número de episodios de al menos tres días consecutivos. Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio. Con la regla territorial, es la reproducción más cercana del recuento de AEMET."
+   },
+   "what": {
+    "en": "Number of single-threshold heatwaves of at least three days in the year. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Número de olas de calor de umbral único de al menos tres días en el año. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 8.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0
+   ],
+   "counts": [
+    1135,
+    1043,
+    496,
+    247,
+    179
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "maxdur_hw_tx",
+   "group": "hw_tx",
+   "label": {
+    "en": "Longest single-threshold heatwave",
+    "es": "Ola de calor de umbral único más larga"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Length of the longest episode in the year (days). A day is in the event when: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Duración del episodio más largo del año (días). Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
+   },
+   "what": {
+    "en": "Duration of the longest single-threshold heatwave of the year. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Duración de la ola de calor de umbral único más larga del año. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "warm",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 28.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+   ],
+   "counts": [
+    188,
+    947,
+    674,
+    469,
+    496,
+    326
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "exp_hw_tx_ge3",
+   "group": "hw_tx",
+   "label": {
+    "en": "Single-threshold heatwave days per resident (≥3-day episodes)",
+    "es": "Días de ola de calor de umbral único por residente (episodios de ≥3 días)"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Share of residents in the event, summed over the days lying in episodes of at least three days: the days the average resident spent in the event.",
+    "es": "Fracción de residentes en el evento, sumada sobre los días de episodios de al menos tres días: los días que el residente medio pasó en el evento."
+   },
+   "what": {
+    "en": "Days the average resident spent under a single-threshold heatwave of at least three days. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Días que el residente medio pasó en ola de calor de umbral único de al menos tres días. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "warm",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 35.2505,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.6,
+    2.4,
+    3.4,
+    5.1,
+    8.1
+   ],
+   "counts": [
+    1135,
+    337,
+    331,
+    323,
+    321,
+    325,
+    328
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "mag_hw_tx_day_ge3_mean",
+   "group": "hw_tx",
+   "label": {
+    "en": "Single-threshold heatwave intensity, daytime",
+    "es": "Intensidad de la ola de calor de umbral único, diurna"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Mean, over the days in episodes of at least three days, of the population-weighted distance of the daily maximum above the 95th percentile in the event cells. Undefined in years without such episodes.",
+    "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la máxima diaria por encima del 95 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
+   },
+   "what": {
+    "en": "How far, on average, the daytime maximum went above its local 95th percentile (1971–2000) during single-threshold heatwaves of at least three days.",
+    "es": "Cuánto se situó, en promedio, la máxima diurna por encima de su percentil 95 local (1971–2000) durante las olas de calor de umbral único de al menos tres días."
+   },
+   "scale": "warm",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.1299,
+   "max": 5.0225,
+   "n": 1965,
+   "n_null": 1135,
+   "breaks": [
+    0.59,
+    0.77,
+    0.93,
+    1.15,
+    1.42,
+    1.86
+   ],
+   "counts": [
+    274,
+    294,
+    274,
+    281,
+    277,
+    284,
+    281
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "days_cw_ge1",
+   "group": "cw",
+   "label": {
+    "en": "Days in a compound cold wave, all spells",
+    "es": "Días en ola de frío compuesta, todas las duraciones"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Number of days in the year in the event. A day is in the event when: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Número de días del año en el evento. Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Days of the year under a compound cold wave. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
+    "es": "Días del año en ola de frío compuesta. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 22.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    7.0
+   ],
+   "counts": [
+    1052,
+    521,
+    386,
+    289,
+    224,
+    391,
+    237
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "days_cw_ge3",
+   "group": "cw",
+   "label": {
+    "en": "Days in a compound cold wave of ≥3 days",
+    "es": "Días en ola de frío compuesta de ≥3 días"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Days lying in an episode of at least three consecutive event days. A day is in the event when: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Días incluidos en un episodio de al menos tres días consecutivos. Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Days of the year under a compound cold wave lasting at least three days. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
+    "es": "Días del año en ola de frío compuesta de al menos tres días. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 20.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    3.0,
+    4.0,
+    5.0,
+    7.0
+   ],
+   "counts": [
+    2317,
+    328,
+    152,
+    76,
+    97,
+    130
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_cw_ge1",
+   "group": "cw",
+   "label": {
+    "en": "Compound cold waves, all spells",
+    "es": "Olas de frío compuestas, todas las duraciones"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of distinct episodes (runs of consecutive event days). A day is in the event when: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Número de episodios distintos (rachas de días consecutivos en el evento). Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Number of compound cold waves in the year, of any length. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
+    "es": "Número de olas de frío compuestas en el año, de cualquier duración. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 8.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0
+   ],
+   "counts": [
+    1066,
+    980,
+    577,
+    299,
+    178
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_cw_ge3",
+   "group": "cw",
+   "label": {
+    "en": "Compound cold waves of ≥3 days",
+    "es": "Olas de frío compuestas de ≥3 días"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of episodes lasting at least three consecutive days. A day is in the event when: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Número de episodios de al menos tres días consecutivos. Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Number of compound cold waves of at least three days in the year. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
+    "es": "Número de olas de frío compuestas de al menos tres días en el año. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 5.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0
+   ],
+   "counts": [
+    2367,
+    617,
+    116
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "maxdur_cw",
+   "group": "cw",
+   "label": {
+    "en": "Longest compound cold wave",
+    "es": "Ola de frío compuesta más larga"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Length of the longest episode in the year (days). A day is in the event when: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Duración del episodio más largo del año (días). Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
+   },
+   "what": {
+    "en": "Duration of the longest compound cold wave of the year. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
+    "es": "Duración de la ola de frío compuesta más larga del año. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 14.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0
+   ],
+   "counts": [
+    1052,
+    734,
+    531,
+    316,
+    167,
+    300
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "exp_cw_ge3",
+   "group": "cw",
+   "label": {
+    "en": "Compound cold wave days per resident (≥3-day episodes)",
+    "es": "Días de ola de frío compuesta por residente (episodios de ≥3 días)"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Share of residents in the event, summed over the days lying in episodes of at least three days: the days the average resident spent in the event.",
+    "es": "Fracción de residentes en el evento, sumada sobre los días de episodios de al menos tres días: los días que el residente medio pasó en el evento."
+   },
+   "what": {
+    "en": "Days the average resident spent under a compound cold wave of at least three days. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
+    "es": "Días que el residente medio pasó en ola de frío compuesta de al menos tres días. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+   },
+   "scale": "cool",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 16.0748,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.4,
+    2.1,
+    2.7,
+    3.7,
+    5.4
+   ],
+   "counts": [
+    2317,
+    137,
+    129,
+    128,
+    124,
+    134,
+    131
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "mag_cw_day_ge3_mean",
+   "group": "cw",
+   "label": {
+    "en": "Compound cold wave intensity, daytime",
+    "es": "Intensidad de la ola de frío compuesta, diurna"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Mean, over the days in episodes of at least three days, of the population-weighted distance of the daily maximum below the 5th percentile in the event cells. Undefined in years without such episodes.",
+    "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la máxima diaria por debajo del 5 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
+   },
+   "what": {
+    "en": "How far, on average, the daytime maximum went below its local 5th percentile (1971–2000) during compound cold waves of at least three days.",
+    "es": "Cuánto se situó, en promedio, la máxima diurna por debajo de su percentil 5 local (1971–2000) durante las olas de frío compuestas de al menos tres días."
+   },
+   "scale": "cool",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.1539,
+   "max": 6.113,
+   "n": 783,
+   "n_null": 2317,
+   "breaks": [
+    1.14,
+    1.53,
+    1.91,
+    2.21,
+    2.61,
+    3.23
+   ],
+   "counts": [
+    114,
+    110,
+    111,
+    110,
+    114,
+    111,
+    113
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "mag_cw_night_ge3_mean",
+   "group": "cw",
+   "label": {
+    "en": "Compound cold wave intensity, night-time",
+    "es": "Intensidad de la ola de frío compuesta, nocturna"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Mean, over the days in episodes of at least three days, of the population-weighted distance of the daily minimum below the 5th percentile in the event cells. Undefined in years without such episodes.",
+    "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la mínima diaria por debajo del 5 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
+   },
+   "what": {
+    "en": "How far, on average, the night-time minimum went below its local 5th percentile (1971–2000) during compound cold waves of at least three days.",
+    "es": "Cuánto se situó, en promedio, la mínima nocturna por debajo de su percentil 5 local (1971–2000) durante las olas de frío compuestas de al menos tres días."
+   },
+   "scale": "cool",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.1023,
+   "max": 8.1832,
+   "n": 783,
+   "n_null": 2317,
+   "breaks": [
+    0.8,
+    1.12,
+    1.43,
+    1.86,
+    2.39,
+    3.18
+   ],
+   "counts": [
+    111,
+    113,
+    111,
+    113,
+    111,
+    113,
+    111
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "days_cw_tn_ge1",
+   "group": "cw_tn",
+   "label": {
+    "en": "Days in a single-threshold cold spell, all spells",
+    "es": "Días en ola de frío de umbral único, todas las duraciones"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Number of days in the year in the event. A day is in the event when: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Número de días del año en el evento. Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
+   },
+   "what": {
+    "en": "Days of the year under a single-threshold cold spell. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Días del año en ola de frío de umbral único. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 41.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    3.0,
+    5.0,
+    8.0,
+    11.0,
+    15.0
+   ],
+   "counts": [
+    158,
+    565,
+    442,
+    575,
+    474,
+    482,
+    404
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "days_cw_tn_ge3",
+   "group": "cw_tn",
+   "label": {
+    "en": "Days in a single-threshold cold spell of ≥3 days",
+    "es": "Días en ola de frío de umbral único de ≥3 días"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Days lying in an episode of at least three consecutive event days. A day is in the event when: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Días incluidos en un episodio de al menos tres días consecutivos. Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
+   },
+   "what": {
+    "en": "Days of the year under a single-threshold cold spell lasting at least three days. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Días del año en ola de frío de umbral único de al menos tres días. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 37.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    3.0,
+    4.0,
+    6.0,
+    9.0,
+    12.0
+   ],
+   "counts": [
+    946,
+    564,
+    226,
+    307,
+    426,
+    303,
+    328
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_cw_tn_ge1",
+   "group": "cw_tn",
+   "label": {
+    "en": "Single-threshold cold spells, all spells",
+    "es": "Olas de frío de umbral único, todas las duraciones"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of distinct episodes (runs of consecutive event days). A day is in the event when: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Número de episodios distintos (rachas de días consecutivos en el evento). Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
+   },
+   "what": {
+    "en": "Number of single-threshold cold spells in the year, of any length. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Número de olas de frío de umbral único en el año, de cualquier duración. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 15.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    2.0,
+    3.0,
+    4.0,
+    6.0
+   ],
+   "counts": [
+    170,
+    933,
+    585,
+    493,
+    548,
+    371
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "episodes_cw_tn_ge3",
+   "group": "cw_tn",
+   "label": {
+    "en": "Single-threshold cold spells of ≥3 days",
+    "es": "Olas de frío de umbral único de ≥3 días"
+   },
+   "unit": {
+    "en": "spells",
+    "es": "episodios"
+   },
+   "desc": {
+    "en": "Number of episodes lasting at least three consecutive days. A day is in the event when: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory. With the territorial rule this is the closest reproduction of AEMET's count.",
+    "es": "Número de episodios de al menos tres días consecutivos. Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio. Con la regla territorial, es la reproducción más cercana del recuento de AEMET."
+   },
+   "what": {
+    "en": "Number of single-threshold cold spells of at least three days in the year. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Número de olas de frío de umbral único de al menos tres días en el año. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 8.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.0,
+    2.0
+   ],
+   "counts": [
+    1000,
+    1123,
+    639,
+    338
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "maxdur_cw_tn",
+   "group": "cw_tn",
+   "label": {
+    "en": "Longest single-threshold cold spell",
+    "es": "Ola de frío de umbral único más larga"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Length of the longest episode in the year (days). A day is in the event when: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Duración del episodio más largo del año (días). Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
+   },
+   "what": {
+    "en": "Duration of the longest single-threshold cold spell of the year. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Duración de la ola de frío de umbral único más larga del año. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "cool",
+   "dp": 0,
+   "derived": null,
+   "integer": true,
+   "min": 0.0,
+   "max": 22.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    7.0
+   ],
+   "counts": [
+    158,
+    788,
+    646,
+    444,
+    303,
+    378,
+    383
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "exp_cw_tn_ge3",
+   "group": "cw_tn",
+   "label": {
+    "en": "Single-threshold cold spell days per resident (≥3-day episodes)",
+    "es": "Días de ola de frío de umbral único por residente (episodios de ≥3 días)"
+   },
+   "unit": {
+    "en": "days",
+    "es": "días"
+   },
+   "desc": {
+    "en": "Share of residents in the event, summed over the days lying in episodes of at least three days: the days the average resident spent in the event.",
+    "es": "Fracción de residentes en el evento, sumada sobre los días de episodios de al menos tres días: los días que el residente medio pasó en el evento."
+   },
+   "what": {
+    "en": "Days the average resident spent under a single-threshold cold spell of at least three days. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
+    "es": "Días que el residente medio pasó en ola de frío de umbral único de al menos tres días. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+   },
+   "scale": "cool",
+   "dp": 1,
+   "derived": null,
+   "integer": false,
+   "min": 0.0,
+   "max": 25.7549,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.0,
+    1.5,
+    2.4,
+    3.6,
+    5.4,
+    8.2
+   ],
+   "counts": [
+    946,
+    369,
+    365,
+    342,
+    359,
+    362,
+    357
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "mag_cw_tn_night_ge3_mean",
+   "group": "cw_tn",
+   "label": {
+    "en": "Single-threshold cold spell intensity, night-time",
+    "es": "Intensidad de la ola de frío de umbral único, nocturna"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Mean, over the days in episodes of at least three days, of the population-weighted distance of the daily minimum below the 5th percentile in the event cells. Undefined in years without such episodes.",
+    "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la mínima diaria por debajo del 5 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
+   },
+   "what": {
+    "en": "How far, on average, the night-time minimum went below its local 5th percentile (1971–2000) during single-threshold cold spells of at least three days.",
+    "es": "Cuánto se situó, en promedio, la mínima nocturna por debajo de su percentil 5 local (1971–2000) durante las olas de frío de umbral único de al menos tres días."
+   },
+   "scale": "cool",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.1437,
+   "max": 5.1412,
+   "n": 2154,
+   "n_null": 946,
+   "breaks": [
+    0.49,
+    0.66,
+    0.8,
+    0.98,
+    1.22,
+    1.6
+   ],
+   "counts": [
+    300,
+    320,
+    300,
+    313,
+    307,
+    305,
+    309
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "tmax_sd_mean",
+   "group": "var",
+   "label": {
+    "en": "Spatial spread of the daily maximum",
+    "es": "Dispersión espacial de la máxima diaria"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily population-weighted standard deviation of the daily maximum across the province's cells.",
+    "es": "Media anual de la desviación típica diaria, ponderada por población, de la máxima diaria entre las celdas de la provincia."
+   },
+   "what": {
+    "en": "How much the daily maximum differs between the inhabited places of the area.",
+    "es": "Cuánto difiere la máxima diaria entre los lugares habitados del área."
+   },
+   "scale": "neutral",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.4013,
+   "max": 2.7026,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.92,
+    1.06,
+    1.18,
+    1.28,
+    1.45,
+    1.71
+   ],
+   "counts": [
+    442,
+    428,
+    453,
+    428,
+    464,
+    437,
+    448
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "tmin_sd_mean",
+   "group": "var",
+   "label": {
+    "en": "Spatial spread of the daily minimum",
+    "es": "Dispersión espacial de la mínima diaria"
+   },
+   "unit": {
+    "en": "°C",
+    "es": "°C"
+   },
+   "desc": {
+    "en": "Annual mean of the daily population-weighted standard deviation of the daily minimum across the province's cells.",
+    "es": "Media anual de la desviación típica diaria, ponderada por población, de la mínima diaria entre las celdas de la provincia."
+   },
+   "what": {
+    "en": "How much the daily minimum differs between the inhabited places of the area.",
+    "es": "Cuánto difiere la mínima diaria entre los lugares habitados del área."
+   },
+   "scale": "neutral",
+   "dp": 2,
+   "derived": null,
+   "integer": false,
+   "min": 0.3725,
+   "max": 2.7425,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    0.81,
+    0.97,
+    1.07,
+    1.16,
+    1.37,
+    1.69
+   ],
+   "counts": [
+    429,
+    468,
+    441,
+    431,
+    445,
+    445,
+    441
+   ],
+   "n_neg": 0
+  },
+  {
+   "id": "pop_total",
+   "group": "ref",
+   "label": {
+    "en": "Resident population",
+    "es": "Población residente"
+   },
+   "unit": {
+    "en": "residents",
+    "es": "residentes"
+   },
+   "desc": {
+    "en": "Official (INE) provincial population for the year, used to rescale the population grid.",
+    "es": "Población provincial oficial (INE) del año, usada para reescalar la malla de población."
+   },
+   "what": {
+    "en": "Number of people living in the area in the year (official figure).",
+    "es": "Número de personas que residen en el área en el año (cifra oficial)."
+   },
+   "scale": "neutral",
+   "dp": 0,
+   "derived": null,
+   "integer": false,
+   "min": 88377.0,
+   "max": 6779888.0,
+   "n": 3100,
+   "n_null": 0,
+   "breaks": [
+    214244.0,
+    362024.0,
+    474738.0,
+    631439.0,
+    804865.0,
+    1127680.0
+   ],
+   "counts": [
+    443,
+    443,
+    443,
+    442,
+    443,
+    443,
+    443
+   ],
+   "n_neg": 0
+  }
+ ],
+ "uncatalogued": [],
+ "skipped": [],
+ "ccaa": true
+}
