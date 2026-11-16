@@ -1,5 +1,5 @@
 {
- "built": "2026-11-16T14:11:46+01:00",
+ "built": "2026-11-16T14:24:32+01:00",
  "level": "ccaa",
  "source": {
   "file": "interim/ccaa_indicators_annual.parquet",
@@ -603,8 +603,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura mínima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "Population-weighting effect for the daily minimum temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
-    "es": "Efecto de la ponderación por población para la temperatura mínima diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
+    "en": "Population-weighting effect for the daily minimum temperature: difference between the population-weighted and the area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura mínima diaria: diferencia entre la media anual ponderada por población y la ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -744,8 +744,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura media diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "Population-weighting effect for the daily mean temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
-    "es": "Efecto de la ponderación por población para la temperatura media diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
+    "en": "Population-weighting effect for the daily mean temperature: difference between the population-weighted and the area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura media diaria: diferencia entre la media anual ponderada por población y la ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -885,8 +885,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura máxima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "Population-weighting effect for the daily maximum temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
-    "es": "Efecto de la ponderación por población para la temperatura máxima diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
+    "en": "Population-weighting effect for the daily maximum temperature: difference between the population-weighted and the area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura máxima diaria: diferencia entre la media anual ponderada por población y la ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -1026,8 +1026,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente mínima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "Population-weighting effect for the daily minimum apparent temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
-    "es": "Efecto de la ponderación por población para la temperatura aparente mínima diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
+    "en": "Population-weighting effect for the daily minimum apparent temperature: difference between the population-weighted and the area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura aparente mínima diaria: diferencia entre la media anual ponderada por población y la ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -1167,8 +1167,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente media diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "Population-weighting effect for the daily mean apparent temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
-    "es": "Efecto de la ponderación por población para la temperatura aparente media diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
+    "en": "Population-weighting effect for the daily mean apparent temperature: difference between the population-weighted and the area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura aparente media diaria: diferencia entre la media anual ponderada por población y la ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -1308,8 +1308,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente máxima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "Population-weighting effect for the daily maximum apparent temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
-    "es": "Efecto de la ponderación por población para la temperatura aparente máxima diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
+    "en": "Population-weighting effect for the daily maximum apparent temperature: difference between the population-weighted and the area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura aparente máxima diaria: diferencia entre la media anual ponderada por población y la ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -2321,8 +2321,8 @@
     "es": "Diferencia entre los grados-día de calor anuales ponderados por población y los ponderados por superficie."
    },
    "what": {
-    "en": "Population-weighting effect for heat degree-days: population-weighted minus area-weighted annual total. Positive values indicate greater accumulated heat where the population resides than over the territory as a whole.",
-    "es": "Efecto de la ponderación por población para los grados-día de calor: total anual ponderado por población menos ponderado por superficie. Los valores positivos indican mayor calor acumulado donde reside la población que en el conjunto del territorio."
+    "en": "Population-weighting effect for heat degree-days: difference between the population-weighted and the area-weighted annual total. Positive values indicate greater accumulated heat where the population resides than over the territory as a whole.",
+    "es": "Efecto de la ponderación por población para los grados-día de calor: diferencia entre el total anual ponderado por población y el ponderado por superficie. Los valores positivos indican mayor calor acumulado donde reside la población que en el conjunto del territorio."
    },
    "scale": "div",
    "dp": 1,
@@ -2508,8 +2508,8 @@
     "es": "Diferencia entre los grados-día de frío anuales ponderados por población y los ponderados por superficie."
    },
    "what": {
-    "en": "Population-weighting effect for cold degree-days: population-weighted minus area-weighted annual total. Positive values indicate greater accumulated cold where the population resides than over the territory as a whole.",
-    "es": "Efecto de la ponderación por población para los grados-día de frío: total anual ponderado por población menos ponderado por superficie. Los valores positivos indican mayor frío acumulado donde reside la población que en el conjunto del territorio."
+    "en": "Population-weighting effect for cold degree-days: difference between the population-weighted and the area-weighted annual total. Positive values indicate greater accumulated cold where the population resides than over the territory as a whole.",
+    "es": "Efecto de la ponderación por población para los grados-día de frío: diferencia entre el total anual ponderado por población y el ponderado por superficie. Los valores positivos indican mayor frío acumulado donde reside la población que en el conjunto del territorio."
    },
    "scale": "div",
    "dp": 1,
