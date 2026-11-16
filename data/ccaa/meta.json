@@ -1,5 +1,5 @@
 {
- "built": "2026-11-15T08:50:06+01:00",
+ "built": "2026-11-16T14:11:46+01:00",
  "level": "ccaa",
  "source": {
   "file": "interim/ccaa_indicators_annual.parquet",
@@ -511,8 +511,8 @@
     "es": "Media anual de la temperatura mínima diaria, con las celdas ponderadas por su población residente."
    },
    "what": {
-    "en": "The daily minimum temperature experienced by the average resident over the year.",
-    "es": "Temperatura mínima diaria que, en promedio, vive la población a lo largo del año."
+    "en": "Annual mean of the daily minimum temperature, weighted by resident population: the temperature to which the population is exposed on average.",
+    "es": "Media anual de la temperatura mínima diaria, ponderada por la población residente: temperatura a la que está expuesta, en promedio, la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -557,8 +557,8 @@
     "es": "Media anual de la temperatura mínima diaria, con las celdas ponderadas por su superficie."
    },
    "what": {
-    "en": "The daily minimum temperature averaged over the whole territory, regardless of where people live.",
-    "es": "Temperatura mínima diaria media del territorio, con independencia de dónde vive la población."
+    "en": "Annual mean of the daily minimum temperature, weighted by area: the mean over the territory, irrespective of the distribution of the population.",
+    "es": "Media anual de la temperatura mínima diaria, ponderada por superficie: media del territorio, con independencia de la distribución de la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -603,8 +603,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura mínima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily minimum temperature.",
-    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura mínima diaria."
+    "en": "Population-weighting effect for the daily minimum temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura mínima diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -652,8 +652,8 @@
     "es": "Media anual de la temperatura media diaria, con las celdas ponderadas por su población residente."
    },
    "what": {
-    "en": "The daily mean temperature experienced by the average resident over the year.",
-    "es": "Temperatura media diaria que, en promedio, vive la población a lo largo del año."
+    "en": "Annual mean of the daily mean temperature, weighted by resident population: the temperature to which the population is exposed on average.",
+    "es": "Media anual de la temperatura media diaria, ponderada por la población residente: temperatura a la que está expuesta, en promedio, la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -698,8 +698,8 @@
     "es": "Media anual de la temperatura media diaria, con las celdas ponderadas por su superficie."
    },
    "what": {
-    "en": "The daily mean temperature averaged over the whole territory, regardless of where people live.",
-    "es": "Temperatura media diaria media del territorio, con independencia de dónde vive la población."
+    "en": "Annual mean of the daily mean temperature, weighted by area: the mean over the territory, irrespective of the distribution of the population.",
+    "es": "Media anual de la temperatura media diaria, ponderada por superficie: media del territorio, con independencia de la distribución de la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -744,8 +744,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura media diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily mean temperature.",
-    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura media diaria."
+    "en": "Population-weighting effect for the daily mean temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura media diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -793,8 +793,8 @@
     "es": "Media anual de la temperatura máxima diaria, con las celdas ponderadas por su población residente."
    },
    "what": {
-    "en": "The daily maximum temperature experienced by the average resident over the year.",
-    "es": "Temperatura máxima diaria que, en promedio, vive la población a lo largo del año."
+    "en": "Annual mean of the daily maximum temperature, weighted by resident population: the temperature to which the population is exposed on average.",
+    "es": "Media anual de la temperatura máxima diaria, ponderada por la población residente: temperatura a la que está expuesta, en promedio, la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -839,8 +839,8 @@
     "es": "Media anual de la temperatura máxima diaria, con las celdas ponderadas por su superficie."
    },
    "what": {
-    "en": "The daily maximum temperature averaged over the whole territory, regardless of where people live.",
-    "es": "Temperatura máxima diaria media del territorio, con independencia de dónde vive la población."
+    "en": "Annual mean of the daily maximum temperature, weighted by area: the mean over the territory, irrespective of the distribution of the population.",
+    "es": "Media anual de la temperatura máxima diaria, ponderada por superficie: media del territorio, con independencia de la distribución de la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -885,8 +885,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura máxima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily maximum temperature.",
-    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura máxima diaria."
+    "en": "Population-weighting effect for the daily maximum temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura máxima diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -934,8 +934,8 @@
     "es": "Media anual de la temperatura aparente mínima diaria, con las celdas ponderadas por su población residente."
    },
    "what": {
-    "en": "The daily minimum apparent temperature experienced by the average resident over the year.",
-    "es": "Temperatura aparente mínima diaria que, en promedio, vive la población a lo largo del año."
+    "en": "Annual mean of the daily minimum apparent temperature, weighted by resident population: the temperature to which the population is exposed on average.",
+    "es": "Media anual de la temperatura aparente mínima diaria, ponderada por la población residente: temperatura a la que está expuesta, en promedio, la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -980,8 +980,8 @@
     "es": "Media anual de la temperatura aparente mínima diaria, con las celdas ponderadas por su superficie."
    },
    "what": {
-    "en": "The daily minimum apparent temperature averaged over the whole territory, regardless of where people live.",
-    "es": "Temperatura aparente mínima diaria media del territorio, con independencia de dónde vive la población."
+    "en": "Annual mean of the daily minimum apparent temperature, weighted by area: the mean over the territory, irrespective of the distribution of the population.",
+    "es": "Media anual de la temperatura aparente mínima diaria, ponderada por superficie: media del territorio, con independencia de la distribución de la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -1026,8 +1026,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente mínima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily minimum apparent temperature.",
-    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura aparente mínima diaria."
+    "en": "Population-weighting effect for the daily minimum apparent temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura aparente mínima diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -1075,8 +1075,8 @@
     "es": "Media anual de la temperatura aparente media diaria, con las celdas ponderadas por su población residente."
    },
    "what": {
-    "en": "The daily mean apparent temperature experienced by the average resident over the year.",
-    "es": "Temperatura aparente media diaria que, en promedio, vive la población a lo largo del año."
+    "en": "Annual mean of the daily mean apparent temperature, weighted by resident population: the temperature to which the population is exposed on average.",
+    "es": "Media anual de la temperatura aparente media diaria, ponderada por la población residente: temperatura a la que está expuesta, en promedio, la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -1121,8 +1121,8 @@
     "es": "Media anual de la temperatura aparente media diaria, con las celdas ponderadas por su superficie."
    },
    "what": {
-    "en": "The daily mean apparent temperature averaged over the whole territory, regardless of where people live.",
-    "es": "Temperatura aparente media diaria media del territorio, con independencia de dónde vive la población."
+    "en": "Annual mean of the daily mean apparent temperature, weighted by area: the mean over the territory, irrespective of the distribution of the population.",
+    "es": "Media anual de la temperatura aparente media diaria, ponderada por superficie: media del territorio, con independencia de la distribución de la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -1167,8 +1167,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente media diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily mean apparent temperature.",
-    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura aparente media diaria."
+    "en": "Population-weighting effect for the daily mean apparent temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura aparente media diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -1216,8 +1216,8 @@
     "es": "Media anual de la temperatura aparente máxima diaria, con las celdas ponderadas por su población residente."
    },
    "what": {
-    "en": "The daily maximum apparent temperature experienced by the average resident over the year.",
-    "es": "Temperatura aparente máxima diaria que, en promedio, vive la población a lo largo del año."
+    "en": "Annual mean of the daily maximum apparent temperature, weighted by resident population: the temperature to which the population is exposed on average.",
+    "es": "Media anual de la temperatura aparente máxima diaria, ponderada por la población residente: temperatura a la que está expuesta, en promedio, la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -1262,8 +1262,8 @@
     "es": "Media anual de la temperatura aparente máxima diaria, con las celdas ponderadas por su superficie."
    },
    "what": {
-    "en": "The daily maximum apparent temperature averaged over the whole territory, regardless of where people live.",
-    "es": "Temperatura aparente máxima diaria media del territorio, con independencia de dónde vive la población."
+    "en": "Annual mean of the daily maximum apparent temperature, weighted by area: the mean over the territory, irrespective of the distribution of the population.",
+    "es": "Media anual de la temperatura aparente máxima diaria, ponderada por superficie: media del territorio, con independencia de la distribución de la población."
    },
    "scale": "warm",
    "dp": 2,
@@ -1308,8 +1308,8 @@
     "es": "Diferencia entre la media anual ponderada por población y la ponderada por superficie de la temperatura aparente máxima diaria. Positiva: los residentes viven, en promedio, en lugares más cálidos que el conjunto del territorio de la unidad."
    },
    "what": {
-    "en": "How much warmer (positive) or colder (negative) the places where people live are than the territory as a whole, for the daily maximum apparent temperature.",
-    "es": "Cuánto más cálidos (valor positivo) o fríos (negativo) son los lugares donde vive la población que el conjunto del territorio, para la temperatura aparente máxima diaria."
+    "en": "Population-weighting effect for the daily maximum apparent temperature: population-weighted minus area-weighted annual mean. Positive values indicate that the population resides in locations warmer than the territorial mean; negative values, in colder locations.",
+    "es": "Efecto de la ponderación por población para la temperatura aparente máxima diaria: media anual ponderada por población menos media ponderada por superficie. Los valores positivos indican que la población reside en lugares más cálidos que la media del territorio; los negativos, en lugares más fríos."
    },
    "scale": "div",
    "dp": 2,
@@ -1357,8 +1357,8 @@
     "es": "Número medio de días por residente en el año con máxima diaria superior a 35 °C en su celda: la fracción diaria de residentes expuestos, sumada a lo largo del año (0–365)."
    },
    "what": {
-    "en": "How many days of the year the average resident had a maximum above 35 °C.",
-    "es": "Cuántos días del año tuvo el residente medio una máxima superior a 35 °C."
+    "en": "Mean number of days per resident with a daily maximum temperature above 35 °C.",
+    "es": "Número medio de días por residente con temperatura máxima diaria superior a 35 °C."
    },
    "scale": "warm",
    "dp": 1,
@@ -1498,8 +1498,8 @@
     "es": "Número medio de días por residente en el año con mínima diaria inferior a 0 °C en su celda: la fracción diaria de residentes expuestos, sumada a lo largo del año (0–365)."
    },
    "what": {
-    "en": "How many nights of the year the average resident had a minimum below 0 °C.",
-    "es": "Cuántas noches del año tuvo el residente medio una mínima inferior a 0 °C."
+    "en": "Mean number of nights per resident with a daily minimum temperature below 0 °C.",
+    "es": "Número medio de noches por residente con temperatura mínima diaria inferior a 0 °C."
    },
    "scale": "cool",
    "dp": 1,
@@ -1641,8 +1641,8 @@
     "es": "Número medio de días por residente en el año con mínima diaria igual o superior a 20 °C en su celda: la fracción diaria de residentes expuestos, sumada a lo largo del año (0–365)."
    },
    "what": {
-    "en": "How many nights of the year the average resident had a minimum of 20 °C or more.",
-    "es": "Cuántas noches del año tuvo el residente medio una mínima de 20 °C o más."
+    "en": "Mean number of nights per resident with a daily minimum temperature of 20 °C or above (tropical nights).",
+    "es": "Número medio de noches por residente con temperatura mínima diaria de 20 °C o superior (noches tropicales)."
    },
    "scale": "warm",
    "dp": 1,
@@ -1782,8 +1782,8 @@
     "es": "Número medio de días por residente en el año con mínima diaria igual o superior a 25 °C en su celda: la fracción diaria de residentes expuestos, sumada a lo largo del año (0–365)."
    },
    "what": {
-    "en": "How many nights of the year the average resident had a minimum of 25 °C or more.",
-    "es": "Cuántas noches del año tuvo el residente medio una mínima de 25 °C o más."
+    "en": "Mean number of nights per resident with a daily minimum temperature of 25 °C or above (torrid nights).",
+    "es": "Número medio de noches por residente con temperatura mínima diaria de 25 °C o superior (noches tórridas)."
    },
    "scale": "warm",
    "dp": 1,
@@ -1909,8 +1909,8 @@
     "es": "Número de rachas de noches consecutivas en que la celda de al menos un residente tuvo una mínima igual o superior a 20 °C."
    },
    "what": {
-    "en": "Number of spells of consecutive tropical nights (minimum of 20 °C or more) in the year.",
-    "es": "Número de rachas de noches tropicales consecutivas (mínima de 20 °C o más) en el año."
+    "en": "Number of episodes of consecutive tropical nights (daily minimum temperature of 20 °C or above) in the year.",
+    "es": "Número de episodios de noches tropicales consecutivas (temperatura mínima diaria de 20 °C o superior) en el año."
    },
    "scale": "warm",
    "dp": 0,
@@ -1955,8 +1955,8 @@
     "es": "Duración de la racha más larga del año (noches)."
    },
    "what": {
-    "en": "The longest spell of consecutive tropical nights in the year.",
-    "es": "La racha más larga de noches tropicales consecutivas del año."
+    "en": "Length of the longest episode of consecutive tropical nights in the year.",
+    "es": "Duración del episodio más largo de noches tropicales consecutivas en el año."
    },
    "scale": "warm",
    "dp": 0,
@@ -2001,8 +2001,8 @@
     "es": "Media, sobre esas noches, del exceso de la mínima sobre 20 °C en las celdas expuestas, ponderado por población. No definida en años sin tales noches."
    },
    "what": {
-    "en": "How far, on average, night-time temperatures exceeded 20 °C on tropical nights.",
-    "es": "Cuánto superó, en promedio, la temperatura nocturna los 20 °C en las noches tropicales."
+    "en": "Mean excess of the daily minimum temperature over 20 °C on tropical nights.",
+    "es": "Exceso medio de la temperatura mínima diaria sobre 20 °C en las noches tropicales."
    },
    "scale": "warm",
    "dp": 2,
@@ -2047,8 +2047,8 @@
     "es": "Número de rachas de noches consecutivas en que la celda de al menos un residente tuvo una mínima igual o superior a 25 °C."
    },
    "what": {
-    "en": "Number of spells of consecutive torrid nights (minimum of 25 °C or more) in the year.",
-    "es": "Número de rachas de noches tórridas consecutivas (mínima de 25 °C o más) en el año."
+    "en": "Number of episodes of consecutive torrid nights (daily minimum temperature of 25 °C or above) in the year.",
+    "es": "Número de episodios de noches tórridas consecutivas (temperatura mínima diaria de 25 °C o superior) en el año."
    },
    "scale": "warm",
    "dp": 0,
@@ -2093,8 +2093,8 @@
     "es": "Duración de la racha más larga del año (noches)."
    },
    "what": {
-    "en": "The longest spell of consecutive torrid nights in the year.",
-    "es": "La racha más larga de noches tórridas consecutivas del año."
+    "en": "Length of the longest episode of consecutive torrid nights in the year.",
+    "es": "Duración del episodio más largo de noches tórridas consecutivas en el año."
    },
    "scale": "warm",
    "dp": 0,
@@ -2137,8 +2137,8 @@
     "es": "Media, sobre esas noches, del exceso de la mínima sobre 25 °C en las celdas expuestas, ponderado por población. No definida en años sin tales noches."
    },
    "what": {
-    "en": "How far, on average, night-time temperatures exceeded 25 °C on torrid nights.",
-    "es": "Cuánto superó, en promedio, la temperatura nocturna los 25 °C en las noches tórridas."
+    "en": "Mean excess of the daily minimum temperature over 25 °C on torrid nights.",
+    "es": "Exceso medio de la temperatura mínima diaria sobre 25 °C en las noches tórridas."
    },
    "scale": "warm",
    "dp": 2,
@@ -2183,8 +2183,8 @@
     "es": "Suma anual del exceso diario de la máxima diaria sobre 30 °C, con las celdas ponderadas por su población residente."
    },
    "what": {
-    "en": "Heat accumulated above 30 °C over the year where people live: it grows with both the number and the heat of hot days.",
-    "es": "Calor acumulado por encima de 30 °C a lo largo del año donde vive la población: aumenta con el número y con el calor de los días cálidos."
+    "en": "Annual sum of the daily exceedances of the maximum temperature over 30 °C, weighted by resident population (heat degree-days); it increases with both the frequency and the intensity of hot days.",
+    "es": "Suma anual de los excesos diarios de la temperatura máxima sobre 30 °C, ponderada por la población residente (grados-día de calor); aumenta con la frecuencia y con la intensidad de los días cálidos."
    },
    "scale": "warm",
    "dp": 0,
@@ -2229,8 +2229,8 @@
     "es": "Suma anual del exceso diario de la máxima diaria sobre 30 °C, con las celdas ponderadas por su superficie."
    },
    "what": {
-    "en": "Heat accumulated above 30 °C over the year across the whole territory.",
-    "es": "Calor acumulado por encima de 30 °C a lo largo del año en todo el territorio."
+    "en": "Annual sum of the daily exceedances of the maximum temperature over 30 °C, weighted by area (heat degree-days).",
+    "es": "Suma anual de los excesos diarios de la temperatura máxima sobre 30 °C, ponderada por superficie (grados-día de calor)."
    },
    "scale": "warm",
    "dp": 0,
@@ -2275,8 +2275,8 @@
     "es": "Días del año con exceso diario ponderado por población positivo (máxima diaria sobre 30 °C en la celda de al menos un residente)."
    },
    "what": {
-    "en": "Days of the year with a maximum above 30 °C somewhere people live.",
-    "es": "Días del año con una máxima superior a 30 °C en algún lugar habitado."
+    "en": "Number of days in the year on which the daily maximum temperature exceeded 30 °C in at least one inhabited location.",
+    "es": "Número de días del año en que la temperatura máxima diaria superó 30 °C en al menos un lugar habitado."
    },
    "scale": "warm",
    "dp": 0,
@@ -2321,8 +2321,8 @@
     "es": "Diferencia entre los grados-día de calor anuales ponderados por población y los ponderados por superficie."
    },
    "what": {
-    "en": "How much more (positive) or less (negative) heat accumulates where people live than across the territory as a whole.",
-    "es": "Cuánto más (valor positivo) o menos (negativo) calor se acumula donde vive la población que en el conjunto del territorio."
+    "en": "Population-weighting effect for heat degree-days: population-weighted minus area-weighted annual total. Positive values indicate greater accumulated heat where the population resides than over the territory as a whole.",
+    "es": "Efecto de la ponderación por población para los grados-día de calor: total anual ponderado por población menos ponderado por superficie. Los valores positivos indican mayor calor acumulado donde reside la población que en el conjunto del territorio."
    },
    "scale": "div",
    "dp": 1,
@@ -2370,8 +2370,8 @@
     "es": "Suma anual del exceso diario de la mínima diaria bajo 0 °C, con las celdas ponderadas por su población residente."
    },
    "what": {
-    "en": "Cold accumulated below 0 °C over the year where people live: it grows with both the number and the severity of frosts.",
-    "es": "Frío acumulado por debajo de 0 °C a lo largo del año donde vive la población: aumenta con el número y con la intensidad de las heladas."
+    "en": "Annual sum of the daily deficits of the minimum temperature below 0 °C, weighted by resident population (cold degree-days); it increases with both the frequency and the severity of frosts.",
+    "es": "Suma anual de los déficits diarios de la temperatura mínima bajo 0 °C, ponderada por la población residente (grados-día de frío); aumenta con la frecuencia y con la intensidad de las heladas."
    },
    "scale": "cool",
    "dp": 0,
@@ -2416,8 +2416,8 @@
     "es": "Suma anual del exceso diario de la mínima diaria bajo 0 °C, con las celdas ponderadas por su superficie."
    },
    "what": {
-    "en": "Cold accumulated below 0 °C over the year across the whole territory.",
-    "es": "Frío acumulado por debajo de 0 °C a lo largo del año en todo el territorio."
+    "en": "Annual sum of the daily deficits of the minimum temperature below 0 °C, weighted by area (cold degree-days).",
+    "es": "Suma anual de los déficits diarios de la temperatura mínima bajo 0 °C, ponderada por superficie (grados-día de frío)."
    },
    "scale": "cool",
    "dp": 0,
@@ -2462,8 +2462,8 @@
     "es": "Días del año con exceso diario ponderado por población positivo (mínima diaria bajo 0 °C en la celda de al menos un residente)."
    },
    "what": {
-    "en": "Days of the year with a minimum below 0 °C somewhere people live.",
-    "es": "Días del año con una mínima inferior a 0 °C en algún lugar habitado."
+    "en": "Number of days in the year on which the daily minimum temperature fell below 0 °C in at least one inhabited location.",
+    "es": "Número de días del año en que la temperatura mínima diaria descendió por debajo de 0 °C en al menos un lugar habitado."
    },
    "scale": "cool",
    "dp": 0,
@@ -2508,8 +2508,8 @@
     "es": "Diferencia entre los grados-día de frío anuales ponderados por población y los ponderados por superficie."
    },
    "what": {
-    "en": "How much more (positive) or less (negative) cold accumulates where people live than across the territory as a whole.",
-    "es": "Cuánto más (valor positivo) o menos (negativo) frío se acumula donde vive la población que en el conjunto del territorio."
+    "en": "Population-weighting effect for cold degree-days: population-weighted minus area-weighted annual total. Positive values indicate greater accumulated cold where the population resides than over the territory as a whole.",
+    "es": "Efecto de la ponderación por población para los grados-día de frío: total anual ponderado por población menos ponderado por superficie. Los valores positivos indican mayor frío acumulado donde reside la población que en el conjunto del territorio."
    },
    "scale": "div",
    "dp": 1,
@@ -2559,8 +2559,8 @@
     "es": "Número de días del año en el evento. Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Days of the year under a compound heatwave. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
-    "es": "Días del año en ola de calor compuesta. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Number of days in the year under a compound heatwave. Definition of a compound heatwave: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Número de días del año en ola de calor compuesta. Definición de ola de calor compuesta: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "warm",
    "dp": 0,
@@ -2605,8 +2605,8 @@
     "es": "Días incluidos en un episodio de al menos tres días consecutivos. Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Days of the year under a compound heatwave lasting at least three days. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
-    "es": "Días del año en ola de calor compuesta de al menos tres días. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Number of days in the year under a compound heatwave of at least three days. Definition of a compound heatwave: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Número de días del año en ola de calor compuesta de al menos tres días. Definición de ola de calor compuesta: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "warm",
    "dp": 0,
@@ -2651,8 +2651,8 @@
     "es": "Número de episodios distintos (rachas de días consecutivos en el evento). Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Number of compound heatwaves in the year, of any length. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
-    "es": "Número de olas de calor compuestas en el año, de cualquier duración. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Number of compound heatwaves in the year, of any duration. Definition of a compound heatwave: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Número de olas de calor compuestas en el año, de cualquier duración. Definición de ola de calor compuesta: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "warm",
    "dp": 0,
@@ -2695,8 +2695,8 @@
     "es": "Número de episodios de al menos tres días consecutivos. Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Number of compound heatwaves of at least three days in the year. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
-    "es": "Número de olas de calor compuestas de al menos tres días en el año. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Number of compound heatwaves of at least three days in the year. Definition of a compound heatwave: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Número de olas de calor compuestas de al menos tres días en el año. Definición de ola de calor compuesta: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "warm",
    "dp": 0,
@@ -2735,8 +2735,8 @@
     "es": "Duración del episodio más largo del año (días). Un día está en el evento cuando: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Duration of the longest compound heatwave of the year. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
-    "es": "Duración de la ola de calor compuesta más larga del año. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Duration of the longest compound heatwave in the year. Definition of a compound heatwave: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Duración de la ola de calor compuesta más larga del año. Definición de ola de calor compuesta: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "warm",
    "dp": 0,
@@ -2779,8 +2779,8 @@
     "es": "Fracción de residentes en el evento, sumada sobre los días de episodios de al menos tres días: los días que el residente medio pasó en el evento."
    },
    "what": {
-    "en": "Days the average resident spent under a compound heatwave of at least three days. A compound heatwave: days and nights far hotter than usual locally, affecting over 10% of residents.",
-    "es": "Días que el residente medio pasó en ola de calor compuesta de al menos tres días. Ola de calor compuesta: días y noches mucho más cálidos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Mean number of days per resident under a compound heatwave of at least three days. Definition of a compound heatwave: daily maximum and minimum above the local 1971–2000 95th percentile, reaching more than 10% of residents.",
+    "es": "Número medio de días por residente en ola de calor compuesta de al menos tres días. Definición de ola de calor compuesta: máxima y mínima diarias por encima del percentil 95 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "warm",
    "dp": 1,
@@ -2825,8 +2825,8 @@
     "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la máxima diaria por encima del 95 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
    },
    "what": {
-    "en": "How far, on average, the daytime maximum went above its local 95th percentile (1971–2000) during compound heatwaves of at least three days.",
-    "es": "Cuánto se situó, en promedio, la máxima diurna por encima de su percentil 95 local (1971–2000) durante las olas de calor compuestas de al menos tres días."
+    "en": "Mean exceedance of the daytime maximum above its local 95th percentile (1971–2000) during compound heatwaves of at least three days.",
+    "es": "Exceso medio de la máxima diurna por encima de su percentil 95 local (1971–2000) durante las olas de calor compuestas de al menos tres días."
    },
    "scale": "warm",
    "dp": 2,
@@ -2871,8 +2871,8 @@
     "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la mínima diaria por encima del 95 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
    },
    "what": {
-    "en": "How far, on average, the night-time minimum went above its local 95th percentile (1971–2000) during compound heatwaves of at least three days.",
-    "es": "Cuánto se situó, en promedio, la mínima nocturna por encima de su percentil 95 local (1971–2000) durante las olas de calor compuestas de al menos tres días."
+    "en": "Mean exceedance of the night-time minimum above its local 95th percentile (1971–2000) during compound heatwaves of at least three days.",
+    "es": "Exceso medio de la mínima nocturna por encima de su percentil 95 local (1971–2000) durante las olas de calor compuestas de al menos tres días."
    },
    "scale": "warm",
    "dp": 2,
@@ -2917,8 +2917,8 @@
     "es": "Número de días del año en el evento. Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "what": {
-    "en": "Days of the year under a single-threshold heatwave. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Días del año en ola de calor de umbral único. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Number of days in the year under a single-threshold heatwave. Definition of a single-threshold heatwave: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Número de días del año en ola de calor de umbral único. Definición de ola de calor de umbral único: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "warm",
    "dp": 0,
@@ -2963,8 +2963,8 @@
     "es": "Días incluidos en un episodio de al menos tres días consecutivos. Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "what": {
-    "en": "Days of the year under a single-threshold heatwave lasting at least three days. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Días del año en ola de calor de umbral único de al menos tres días. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Number of days in the year under a single-threshold heatwave of at least three days. Definition of a single-threshold heatwave: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Número de días del año en ola de calor de umbral único de al menos tres días. Definición de ola de calor de umbral único: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "warm",
    "dp": 0,
@@ -3009,8 +3009,8 @@
     "es": "Número de episodios distintos (rachas de días consecutivos en el evento). Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "what": {
-    "en": "Number of single-threshold heatwaves in the year, of any length. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Número de olas de calor de umbral único en el año, de cualquier duración. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Number of single-threshold heatwaves in the year, of any duration. Definition of a single-threshold heatwave: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Número de olas de calor de umbral único en el año, de cualquier duración. Definición de ola de calor de umbral único: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "warm",
    "dp": 0,
@@ -3055,8 +3055,8 @@
     "es": "Número de episodios de al menos tres días consecutivos. Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio. Con la regla territorial, es la reproducción más cercana del recuento de AEMET."
    },
    "what": {
-    "en": "Number of single-threshold heatwaves of at least three days in the year. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Número de olas de calor de umbral único de al menos tres días en el año. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Number of single-threshold heatwaves of at least three days in the year. Definition of a single-threshold heatwave: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Número de olas de calor de umbral único de al menos tres días en el año. Definición de ola de calor de umbral único: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "warm",
    "dp": 0,
@@ -3097,8 +3097,8 @@
     "es": "Duración del episodio más largo del año (días). Un día está en el evento cuando: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "what": {
-    "en": "Duration of the longest single-threshold heatwave of the year. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Duración de la ola de calor de umbral único más larga del año. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Duration of the longest single-threshold heatwave in the year. Definition of a single-threshold heatwave: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Duración de la ola de calor de umbral único más larga del año. Definición de ola de calor de umbral único: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "warm",
    "dp": 0,
@@ -3141,8 +3141,8 @@
     "es": "Fracción de residentes en el evento, sumada sobre los días de episodios de al menos tres días: los días que el residente medio pasó en el evento."
    },
    "what": {
-    "en": "Days the average resident spent under a single-threshold heatwave of at least three days. A single-threshold heatwave: days far hotter than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Días que el residente medio pasó en ola de calor de umbral único de al menos tres días. Ola de calor de umbral único: días mucho más cálidos de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Mean number of days per resident under a single-threshold heatwave of at least three days. Definition of a single-threshold heatwave: daily maximum above the local 1971–2000 95th percentile over more than 10% of the territory.",
+    "es": "Número medio de días por residente en ola de calor de umbral único de al menos tres días. Definición de ola de calor de umbral único: máxima diaria por encima del percentil 95 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "warm",
    "dp": 1,
@@ -3187,8 +3187,8 @@
     "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la máxima diaria por encima del 95 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
    },
    "what": {
-    "en": "How far, on average, the daytime maximum went above its local 95th percentile (1971–2000) during single-threshold heatwaves of at least three days.",
-    "es": "Cuánto se situó, en promedio, la máxima diurna por encima de su percentil 95 local (1971–2000) durante las olas de calor de umbral único de al menos tres días."
+    "en": "Mean exceedance of the daytime maximum above its local 95th percentile (1971–2000) during single-threshold heatwaves of at least three days.",
+    "es": "Exceso medio de la máxima diurna por encima de su percentil 95 local (1971–2000) durante las olas de calor de umbral único de al menos tres días."
    },
    "scale": "warm",
    "dp": 2,
@@ -3233,8 +3233,8 @@
     "es": "Número de días del año en el evento. Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Days of the year under a compound cold wave. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
-    "es": "Días del año en ola de frío compuesta. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Number of days in the year under a compound cold wave. Definition of a compound cold wave: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Número de días del año en ola de frío compuesta. Definición de ola de frío compuesta: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "cool",
    "dp": 0,
@@ -3279,8 +3279,8 @@
     "es": "Días incluidos en un episodio de al menos tres días consecutivos. Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Days of the year under a compound cold wave lasting at least three days. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
-    "es": "Días del año en ola de frío compuesta de al menos tres días. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Number of days in the year under a compound cold wave of at least three days. Definition of a compound cold wave: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Número de días del año en ola de frío compuesta de al menos tres días. Definición de ola de frío compuesta: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "cool",
    "dp": 0,
@@ -3323,8 +3323,8 @@
     "es": "Número de episodios distintos (rachas de días consecutivos en el evento). Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Number of compound cold waves in the year, of any length. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
-    "es": "Número de olas de frío compuestas en el año, de cualquier duración. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Number of compound cold waves in the year, of any duration. Definition of a compound cold wave: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Número de olas de frío compuestas en el año, de cualquier duración. Definición de ola de frío compuesta: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "cool",
    "dp": 0,
@@ -3365,8 +3365,8 @@
     "es": "Número de episodios de al menos tres días consecutivos. Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Number of compound cold waves of at least three days in the year. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
-    "es": "Número de olas de frío compuestas de al menos tres días en el año. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Number of compound cold waves of at least three days in the year. Definition of a compound cold wave: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Número de olas de frío compuestas de al menos tres días en el año. Definición de ola de frío compuesta: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "cool",
    "dp": 0,
@@ -3403,8 +3403,8 @@
     "es": "Duración del episodio más largo del año (días). Un día está en el evento cuando: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "what": {
-    "en": "Duration of the longest compound cold wave of the year. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
-    "es": "Duración de la ola de frío compuesta más larga del año. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Duration of the longest compound cold wave in the year. Definition of a compound cold wave: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Duración de la ola de frío compuesta más larga del año. Definición de ola de frío compuesta: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "cool",
    "dp": 0,
@@ -3447,8 +3447,8 @@
     "es": "Fracción de residentes en el evento, sumada sobre los días de episodios de al menos tres días: los días que el residente medio pasó en el evento."
    },
    "what": {
-    "en": "Days the average resident spent under a compound cold wave of at least three days. A compound cold wave: days and nights far colder than usual locally, affecting over 10% of residents.",
-    "es": "Días que el residente medio pasó en ola de frío compuesta de al menos tres días. Ola de frío compuesta: días y noches mucho más fríos de lo habitual en el lugar, que afectan a más del 10% de la población."
+    "en": "Mean number of days per resident under a compound cold wave of at least three days. Definition of a compound cold wave: daily maximum and minimum below the local 1971–2000 5th percentile, reaching more than 10% of residents.",
+    "es": "Número medio de días por residente en ola de frío compuesta de al menos tres días. Definición de ola de frío compuesta: máxima y mínima diarias por debajo del percentil 5 local de 1971–2000, alcanzando a más del 10% de los residentes."
    },
    "scale": "cool",
    "dp": 1,
@@ -3493,8 +3493,8 @@
     "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la máxima diaria por debajo del 5 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
    },
    "what": {
-    "en": "How far, on average, the daytime maximum went below its local 5th percentile (1971–2000) during compound cold waves of at least three days.",
-    "es": "Cuánto se situó, en promedio, la máxima diurna por debajo de su percentil 5 local (1971–2000) durante las olas de frío compuestas de al menos tres días."
+    "en": "Mean exceedance of the daytime maximum below its local 5th percentile (1971–2000) during compound cold waves of at least three days.",
+    "es": "Exceso medio de la máxima diurna por debajo de su percentil 5 local (1971–2000) durante las olas de frío compuestas de al menos tres días."
    },
    "scale": "cool",
    "dp": 2,
@@ -3539,8 +3539,8 @@
     "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la mínima diaria por debajo del 5 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
    },
    "what": {
-    "en": "How far, on average, the night-time minimum went below its local 5th percentile (1971–2000) during compound cold waves of at least three days.",
-    "es": "Cuánto se situó, en promedio, la mínima nocturna por debajo de su percentil 5 local (1971–2000) durante las olas de frío compuestas de al menos tres días."
+    "en": "Mean exceedance of the night-time minimum below its local 5th percentile (1971–2000) during compound cold waves of at least three days.",
+    "es": "Exceso medio de la mínima nocturna por debajo de su percentil 5 local (1971–2000) durante las olas de frío compuestas de al menos tres días."
    },
    "scale": "cool",
    "dp": 2,
@@ -3585,8 +3585,8 @@
     "es": "Número de días del año en el evento. Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "what": {
-    "en": "Days of the year under a single-threshold cold spell. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Días del año en ola de frío de umbral único. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Number of days in the year under a single-threshold cold spell. Definition of a single-threshold cold spell: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Número de días del año en ola de frío de umbral único. Definición de ola de frío de umbral único: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "cool",
    "dp": 0,
@@ -3631,8 +3631,8 @@
     "es": "Días incluidos en un episodio de al menos tres días consecutivos. Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "what": {
-    "en": "Days of the year under a single-threshold cold spell lasting at least three days. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Días del año en ola de frío de umbral único de al menos tres días. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Number of days in the year under a single-threshold cold spell of at least three days. Definition of a single-threshold cold spell: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Número de días del año en ola de frío de umbral único de al menos tres días. Definición de ola de frío de umbral único: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "cool",
    "dp": 0,
@@ -3677,8 +3677,8 @@
     "es": "Número de episodios distintos (rachas de días consecutivos en el evento). Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "what": {
-    "en": "Number of single-threshold cold spells in the year, of any length. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Número de olas de frío de umbral único en el año, de cualquier duración. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Number of single-threshold cold spells in the year, of any duration. Definition of a single-threshold cold spell: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Número de olas de frío de umbral único en el año, de cualquier duración. Definición de ola de frío de umbral único: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "cool",
    "dp": 0,
@@ -3723,8 +3723,8 @@
     "es": "Número de episodios de al menos tres días consecutivos. Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio. Con la regla territorial, es la reproducción más cercana del recuento de AEMET."
    },
    "what": {
-    "en": "Number of single-threshold cold spells of at least three days in the year. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Número de olas de frío de umbral único de al menos tres días en el año. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Number of single-threshold cold spells of at least three days in the year. Definition of a single-threshold cold spell: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Número de olas de frío de umbral único de al menos tres días en el año. Definición de ola de frío de umbral único: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "cool",
    "dp": 0,
@@ -3765,8 +3765,8 @@
     "es": "Duración del episodio más largo del año (días). Un día está en el evento cuando: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "what": {
-    "en": "Duration of the longest single-threshold cold spell of the year. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Duración de la ola de frío de umbral único más larga del año. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Duration of the longest single-threshold cold spell in the year. Definition of a single-threshold cold spell: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Duración de la ola de frío de umbral único más larga del año. Definición de ola de frío de umbral único: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "cool",
    "dp": 0,
@@ -3809,8 +3809,8 @@
     "es": "Fracción de residentes en el evento, sumada sobre los días de episodios de al menos tres días: los días que el residente medio pasó en el evento."
    },
    "what": {
-    "en": "Days the average resident spent under a single-threshold cold spell of at least three days. A single-threshold cold spell: nights far colder than usual locally over more than 10% of the territory (AEMET-like).",
-    "es": "Días que el residente medio pasó en ola de frío de umbral único de al menos tres días. Ola de frío de umbral único: noches mucho más frías de lo habitual en más del 10% del territorio (criterio próximo a AEMET)."
+    "en": "Mean number of days per resident under a single-threshold cold spell of at least three days. Definition of a single-threshold cold spell: daily minimum below the local 1971–2000 5th percentile over more than 10% of the territory.",
+    "es": "Número medio de días por residente en ola de frío de umbral único de al menos tres días. Definición de ola de frío de umbral único: mínima diaria por debajo del percentil 5 local de 1971–2000 en más del 10% del territorio."
    },
    "scale": "cool",
    "dp": 1,
@@ -3855,8 +3855,8 @@
     "es": "Media, sobre los días de episodios de al menos tres días, de la distancia de la mínima diaria por debajo del 5 percentil en las celdas del evento, ponderada por población. No definida en años sin tales episodios."
    },
    "what": {
-    "en": "How far, on average, the night-time minimum went below its local 5th percentile (1971–2000) during single-threshold cold spells of at least three days.",
-    "es": "Cuánto se situó, en promedio, la mínima nocturna por debajo de su percentil 5 local (1971–2000) durante las olas de frío de umbral único de al menos tres días."
+    "en": "Mean exceedance of the night-time minimum below its local 5th percentile (1971–2000) during single-threshold cold spells of at least three days.",
+    "es": "Exceso medio de la mínima nocturna por debajo de su percentil 5 local (1971–2000) durante las olas de frío de umbral único de al menos tres días."
    },
    "scale": "cool",
    "dp": 2,
@@ -3901,8 +3901,8 @@
     "es": "Media anual de la desviación típica diaria, ponderada por población, de la máxima diaria entre las celdas de la provincia."
    },
    "what": {
-    "en": "How much the daily maximum differs between the inhabited places of the area.",
-    "es": "Cuánto difiere la máxima diaria entre los lugares habitados del área."
+    "en": "Annual mean of the population-weighted standard deviation of the daily maximum temperature across the inhabited cells of the unit.",
+    "es": "Media anual de la desviación típica, ponderada por población, de la temperatura máxima diaria entre las celdas habitadas de la unidad."
    },
    "scale": "neutral",
    "dp": 2,
@@ -3947,8 +3947,8 @@
     "es": "Media anual de la desviación típica diaria, ponderada por población, de la mínima diaria entre las celdas de la provincia."
    },
    "what": {
-    "en": "How much the daily minimum differs between the inhabited places of the area.",
-    "es": "Cuánto difiere la mínima diaria entre los lugares habitados del área."
+    "en": "Annual mean of the population-weighted standard deviation of the daily minimum temperature across the inhabited cells of the unit.",
+    "es": "Media anual de la desviación típica, ponderada por población, de la temperatura mínima diaria entre las celdas habitadas de la unidad."
    },
    "scale": "neutral",
    "dp": 2,
@@ -3993,8 +3993,8 @@
     "es": "Población provincial oficial (INE) del año, usada para reescalar la malla de población."
    },
    "what": {
-    "en": "Number of people living in the area in the year (official figure).",
-    "es": "Número de personas que residen en el área en el año (cifra oficial)."
+    "en": "Resident population of the unit in the year (official INE figure).",
+    "es": "Población residente de la unidad en el año (cifra oficial del INE)."
    },
    "scale": "neutral",
    "dp": 0,
